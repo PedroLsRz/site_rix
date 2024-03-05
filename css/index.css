@@ -222,44 +222,21 @@ body {
     background-color: #01e675;
     height: 4vh;
   }
-  
-.rodape{
-    
+.rodape{  
   color: white;
   align-items: center;
   text-decoration:none;
 }
 .nav-rodape{
-  
   justify-content: center;
   bottom: 0;
   left: 0;
   right: 0;
-
-}
-.container-sac{
-
-  display: flex;
-  border-top: 1px solid rgb(230, 230, 230);
-  padding-bottom: 30px; 
- 
 }
 .infos{
-
+  border-top: 1px solid rgb(230, 230, 230);
   display: flex;
-  padding-bottom: 30px; 
   padding-left: 120px;
-}
-.menu-sac{
-  list-style-type: none;
-  width: 10%;
-  
-}
-.etiqueta{
-  display: flex;
-  height: 14vh;
-  margin: 0;
- padding-left: 10px;
 }
 .menu-textos{
   
@@ -268,39 +245,18 @@ body {
 }
 li{
   padding-bottom: 15px;
-  font-size: 11pt;
+  font-size: 12pt;
 }
 .menu-link{
   text-decoration: none;
   color: black;
-  
+
 }
 .menu-link:hover{
   transition: 0.3s;
   color: rgb(19, 50, 226);
 }
-.link-zap{
-  text-decoration: none;
-  color: black;
-  font-size: 14pt;
-  font-weight: bolder;
-}
-.numero{
-  text-decoration: none;
-  color: black;
-  font-size: 14pt;
-  font-weight: bolder;
-}
-.link-zap:hover{
-  transition: 0.3s;
-  color: rgb(19, 50, 226);
-}
-svg{
-  display: flex;
-  height: 4vh;
-  flex-direction: column;
-  justify-content: center;
-}
+
 .tarja{
   display: flex;
   background-color: black;
@@ -308,5 +264,93 @@ svg{
   justify-content: center;
   height: 4vh;
   align-items: center;
-  font-weight: bolder;
+
+}
+.container-logo{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5px;
+}
+
+.etiqueta{
+  display: flex;
+  height: 14vh;
+  margin: 0;
+  justify-content: center;
+}
+
+.contato1{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+  font-size: 12pt;
+}
+.contato2{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  font-size: 12pt;
+}
+.pin{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3vh;
+}
+.endereco{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  font-size: 12pt;
+}
+.whatsapp{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3vh;
+}
+.condensador{
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  height: 9vh;
+  padding-right: 170px;
+  
+}
+.img-dp{
+  display: flex;
+  justify-content: end;
+  height: 12vh;
+  flex-direction: column;
+}
+.img-dp:hover{
+  cursor: pointer;
+}
+.img-procon{
+  display: flex;
+  justify-content: end;
+  height: 12vh;
+  flex-direction: column;
+  margin: 0;
+}
+.img-procon:hover{
+  cursor: pointer;
+}
+.img-oi{
+  display: flex;
+  justify-content: end;
+  height: 8vh;
+  width: 4vw;
+  padding-right: 30px;
+}
+.img-oi:hover{
+  cursor: pointer;
+}
+.img-conde{
+  display: flex;
+  justify-content: end;
+  height: 12vh;
+}
+.img-conde:hover{
+  cursor: pointer;
 }

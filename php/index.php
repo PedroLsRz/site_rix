@@ -68,15 +68,21 @@
                 <li class="menu-item">
                     <a href="rix-telecom.php" class="menu-link">Sobre a Rix</a>
                 </li>
-            </ul>
-            <ul class="menu-textos">
                 <li class="menu-item">
-                    <a href="texto-um.php" class="menu-link">Política de Privacidade</a>
+                <a href="texto-um.php" class="menu-link">Política de Privacidade</a>
+                </li>
+                <li class="menu-item">
+                <a href="texto-um.php" class="menu-link">Solicite um retorno</a>
                 </li>
             </ul>
             <ul class="menu-textos">
                 <li class="menu-item">
-                    <a href="texto-um.php" class="menu-link">Solicite um retorno</a>
+                    <a href="texto-um.php" class="menu-branco">a</a>
+                </li>
+            </ul>
+            <ul class="menu-textos">
+                <li class="menu-item">
+                    <a href="texto-um.php" class="menu-branco">a</a>
                 </li>
             </ul>
             <ul class="menu-textos">
@@ -86,15 +92,17 @@
             </ul>
         </div>
         <div class="condensador">
-            <img class="img-dp" src="../img/DP.png">
             <img class="img-conde" src="../img/conde.png">
+            <img class="img-procon" src="../img/procon.png">
+            <img class="img-dp" src="../img/DP.png">  
+            <img class="img-SES" src="../img/SES.png"> 
+            <img class="img-oi" src="../img/oi.png">
         </div>
+        
         <div class="condensador">
-                <img class="img-oi" src="../img/oi.png">
-                <img class="img-procon" src="../img/procon.png">
+        
+        
         </div>
-            <br>
-            
         
         <div class="container-logo">  <img class="etiqueta" src="../img/logo-rix.png" alt="etiqueta" ></div>
         <div class="contato1"><img class="telefone" src="../img/telefone.png">Fixo: (83)3341-5770</div>

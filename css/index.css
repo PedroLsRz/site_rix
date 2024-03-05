@@ -1,51 +1,94 @@
 body {
     margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif ;
+}
 
-}
-.navbar-esquerda{
-    display:flex;
-    background-color: rgb(31, 30, 30);
-    color: white;
-    position: absolute;
-    left: 0;
-    width: 50%;
-    height: 3vh;
-    justify-content: center;
-}
-.navbar-direita{
-    display: flex;
-    background-color: rgb(31, 30, 30);
-    color: white;
-    position: absolute;
-    right: 0;
-    top: 0px;
-    width: 50%;
-    height: 3vh;
-    justify-content: center;
-}
-.navbar-secundaria{
-    display: flex;
-    background-color: blanchedalmond;
-    justify-content: center;
-    height: 6vh;
-}
-.servicos{
-    position: relative;
-    color: white;
-    align-items: center;
-    left: 5px;
-}
-.teste{
-    position: relative;
-    color: white;
-    align-items: center;
-    left: 15px;
-}
 .rodape{
-    position: relative;
+    
     color: white;
     align-items: center;
-    left: 30px;
+    text-decoration:none;
+}
+.nav-rodape{
+    
+    justify-content: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  
+}
+.container-sac{
+
+    display: flex;
+    border-top: 1px solid rgb(230, 230, 230);
+    padding-bottom: 30px; 
+   
+}
+.infos{
+
+    display: flex;
+    padding-bottom: 30px; 
+    padding-left: 120px;
+}
+.menu-sac{
+    list-style-type: none;
+    width: 10%;
+    
+}
+.etiqueta{
+    display: flex;
+    height: 14vh;
+    margin: 0;
+   padding-left: 10px;
+}
+.menu-textos{
+    
+    list-style-type: none;
+    width: 20%;
+}
+li{
+    padding-bottom: 15px;
+    font-size: 11pt;
+}
+.menu-link{
+    text-decoration: none;
+    color: black;
+    
+}
+.menu-link:hover{
+    transition: 0.3s;
+    color: rgb(19, 50, 226);
+}
+.link-zap{
+    text-decoration: none;
+    color: black;
+    font-size: 14pt;
+    font-weight: bolder;
+}
+.numero{
+    text-decoration: none;
+    color: black;
+    font-size: 14pt;
+    font-weight: bolder;
+}
+.link-zap:hover{
+    transition: 0.3s;
+    color: rgb(19, 50, 226);
+}
+svg{
+    display: flex;
+    height: 4vh;
+    flex-direction: column;
+    justify-content: center;
+}
+.tarja{
+    display: flex;
+    background-color: black;
+    color: white;   
+    justify-content: center;
+    height: 4vh;
+    align-items: center;
+    font-weight: bolder;
 }
 
 /* start carrossel */

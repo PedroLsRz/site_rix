@@ -10,14 +10,21 @@
 <body>
 
 <body>
+        <nav class="nav-top">
+            <a class="nav_mini_item" href="#">Você está em: </a>
+        </nav>
         <header>
             <a class="logo" href="../php/index.php"><img src="../img/rix-logo-2.png" alt="logo"></a>
             
+            
             <nav>
                 <ul class="nav__links">
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">About</a></li>
+                <li><a class="nav_mini_item" href="#">Principal</a></li>
+                    <li><a class="nav_mini_item" href="#">Serviços</a></li>
+                    <li><a class="nav_mini_item" href="#">Contatos</a></li>
+                    <li><a class="nav_mini_item" href="#">Sobre</a></li>
+                    <li><a class="nav_mini_item" href="#">FAQ</a></li>
+                    
                 </ul>
             </nav>
             <a class="cta" href="#">0800 73 20 749
@@ -61,18 +68,30 @@
   <a href='https://wa.me/5583982192221'class="icon" target='_blank'><i class="fab fa-whatsapp"></i></a>
 </div>
 <nav class="nav-rodape">
-        <div class="infos">
-       
+<div class="container-rodape">
+        
+        <img class="img-dp" src="../img/DP.png">  
+        <img class="img-SES" src="../img/SES.png"> 
+        <img class="img-oi" src="../img/oi.png">
+        <img class="img-conde" src="../img/conde.png">
+        <img class="img-procon" src="../img/procon.png">
+        <img class="img-TRE" src="../img/TRE.png">
+
+</div>
+<div class="infos">
             <ul class="menu-textos">
                  
                 <li class="menu-item">
                     <a href="rix-telecom.php" class="menu-link">Sobre a Rix</a>
                 </li>
                 <li class="menu-item">
-                <a href="texto-um.php" class="menu-link">Política de Privacidade</a>
+                <a href="texto-um.php" class="menu-link">Teste de velocidade</a>
                 </li>
                 <li class="menu-item">
-                <a href="texto-um.php" class="menu-link">Solicite um retorno</a>
+                    <a href="texto-um.php" class="menu-link">Fale conosco</a>
+                </li>
+                <li class="menu-item">
+                    <a href="texto-um.php" class="menu-link">FAQ</a>
                 </li>
             </ul>
             <ul class="menu-textos">
@@ -80,36 +99,16 @@
                     <a href="texto-um.php" class="menu-branco">a</a>
                 </li>
             </ul>
-            <ul class="menu-textos">
-                <li class="menu-item">
-                    <a href="texto-um.php" class="menu-branco">a</a>
-                </li>
-            </ul>
-            <ul class="menu-textos">
-                <li class="menu-item">
-                    <a href="texto-um.php" class="menu-link">Clientes</a>
-                </li>
-            </ul>
         </div>
-        <div class="condensador">
-            <img class="img-conde" src="../img/conde.png">
-            <img class="img-procon" src="../img/procon.png">
-            <img class="img-dp" src="../img/DP.png">  
-            <img class="img-SES" src="../img/SES.png"> 
-            <img class="img-oi" src="../img/oi.png">
-        </div>
-        
-        <div class="condensador">
-        
-        
-        </div>
-        
-        <div class="container-logo">  <img class="etiqueta" src="../img/logo-rix.png" alt="etiqueta" ></div>
+<div class="container-logo">  <img class="etiqueta" src="../img/logo-rix.png" alt="etiqueta" >
         <div class="contato1"><img class="telefone" src="../img/telefone.png">Fixo: (83)3341-5770</div>
         <div class="contato2"><img class="whatsapp" src="../img/whatsapp.png">WhatsApp: (83)99155-3500</div>
         <div class="endereco"><img class="pin" src="../img/pin.png">Av. Francisco Lustosa Cabral, 481, Cristo Redentor, João Pessoa/PB </div>
+    
+    </div>
+    
         <div class="tarja">
-            2024 - Rix Telecom - Todos os direitos reservados
+        © 2024 Rix Telecom. Todos os direitos reservados.<br> Criado por Rix Telecom.
         </div>
     </nav>
 </body>

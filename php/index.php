@@ -65,46 +65,52 @@
     </section>
 
 <div class="buttonzap">
-  <a href='https://wa.me/5583982192221'class="icon" target='_blank'><i class="fab fa-whatsapp"></i></a>
+  <a href='https://wa.me/5583991553500'class="icon" target='_blank'><i class="fab fa-whatsapp"></i></a>
 </div>
 <nav class="nav-rodape">
 <div class="container-rodape">
-        
-        <img class="img-dp" src="../img/DP.png">  
-        <img class="img-SES" src="../img/SES.png"> 
-        <img class="img-oi" src="../img/oi.png">
-        <img class="img-conde" src="../img/conde.png">
-        <img class="img-procon" src="../img/procon.png">
-        <img class="img-TRE" src="../img/TRE.png">
-
+    <div class="divisor">
+        <img class="img-atendimento-left" src="../img/atendimento-left.png">  
+        <div class="clientes">
+            <img class="img-dp" src="../img/DP.png">  
+            <img class="img-SES" src="../img/SES.png"> 
+            <img class="img-oi" src="../img/oi.png">
+            <img class="img-conde" src="../img/conde.png">
+            <img class="img-procon" src="../img/procon.png">
+            <img class="img-TRE" src="../img/TRE.png"> 
+        </div>
+        <img class="img-atendimento-right" src="../img/atendimento-right.png"> 
+    </div>
 </div>
 <div class="infos">
+<img class="etiqueta" src="../img/logo-rix.png" alt="etiqueta" >
             <ul class="menu-textos">
-                 
+            <div class="menu-titulo">CONTATO</div>
                 <li class="menu-item">
-                    <a href="rix-telecom.php" class="menu-link">Sobre a Rix</a>
-                </li>
-                <li class="menu-item">
-                <a href="texto-um.php" class="menu-link">Teste de velocidade</a>
-                </li>
-                <li class="menu-item">
-                    <a href="texto-um.php" class="menu-link">Fale conosco</a>
-                </li>
-                <li class="menu-item">
-                    <a href="texto-um.php" class="menu-link">FAQ</a>
+                    <a href="#" class="menu-link">WhatsApp</a> <br>
+                    <a href="#" class="menu-link">Fixo (83) 3341-5770</a><br>
+                    <a href="#" class="menu-link">Email</a>
                 </li>
             </ul>
             <ul class="menu-textos">
+            <div class="menu-titulo">PARCEIROS</div>
                 <li class="menu-item">
-                    <a href="texto-um.php" class="menu-branco">a</a>
+                    <a href="#" class="menu-link">Opix</a><br>
+                    <a href="#" class="menu-branco">A</a><br>
+                    <a href="#" class="menu-branco">A</a><br>
+                </li>
+            </ul>
+            <ul class="menu-textos">
+                <div class="menu-titulo">SOBRE</div>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">A Rix</a><br>
+                    <a href="#" class="menu-link">Agende um retorno</a><br>
+                    <a href="#" class="menu-link">Trabalhe conosco</a>
                 </li>
             </ul>
         </div>
-<div class="container-logo">  <img class="etiqueta" src="../img/logo-rix.png" alt="etiqueta" >
-        <div class="contato1"><img class="telefone" src="../img/telefone.png">Fixo: (83)3341-5770</div>
-        <div class="contato2"><img class="whatsapp" src="../img/whatsapp.png">WhatsApp: (83)99155-3500</div>
+    <div class="container-logo">  
         <div class="endereco"><img class="pin" src="../img/pin.png">Av. Francisco Lustosa Cabral, 481, Cristo Redentor, João Pessoa/PB </div>
-    
     </div>
     
         <div class="tarja">

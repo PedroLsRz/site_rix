@@ -73,12 +73,24 @@
     <div class="divisor">
         <img class="img-atendimento-left" src="../img/atendimento-left.png">  
         <div class="clientes">
-            <img class="img-dp" src="../img/DP.png">  
-            <img class="img-SES" src="../img/SES.png"> 
-            <img class="img-oi" src="../img/oi.png">
-            <img class="img-conde" src="../img/conde.png">
-            <img class="img-procon" src="../img/procon.png">
-            <img class="img-TRE" src="../img/TRE.png"> 
+            <a target='_blank' href="https://www.defensoria.pb.def.br/">
+                <img class="img-dp" src="../img/DP.png"> 
+            </a>
+            <a target='_blank' href="https://paraiba.pb.gov.br/diretas/saude/projeto-amar">
+                <img class="img-SES" src="../img/SES.png">
+            </a>
+            <a target='_blank' href="https://www.oi.com.br/">
+                <img class="img-oi" src="../img/oi.png">
+            </a>
+            <a target='_blank' href="https://www.conde.pb.gov.br/">
+                <img class="img-conde" src="../img/conde.png">
+            </a>
+            <a target='_blank' href="https://procon.pb.gov.br/">
+                <img class="img-procon" src="../img/procon.png">
+            </a>
+            <a target='_blank' href="https://www.tre-pb.jus.br/">
+                <img class="img-TRE" src="../img/TRE.png">
+            </a>
         </div>
         <img class="img-atendimento-right" src="../img/atendimento-right.png"> 
     </div>

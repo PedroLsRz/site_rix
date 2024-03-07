@@ -1,5 +1,4 @@
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', function () {
     const slider = document.querySelector('.slider');
     let currentIndex = 0;
 
@@ -18,4 +17,11 @@
 
     setInterval(nextSlide, 1000); // Altere o valor para ajustar o tempo de transição (em milissegundos)
   });
-</script>
+
+  const $html = document.querySelector('html')
+  const $checkbox = document.querySelector('#switch')
+
+  $checkbox.addEventListener('change', function() {
+    $html.classList.toggle('dark-mode')
+  }
+  )

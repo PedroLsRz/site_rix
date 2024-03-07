@@ -9,7 +9,6 @@
 </head>
 <body>
 
-<body>
         <nav class="nav-top">
             <a class="nav_mini_item" href="#">Você está em: </a>
         </nav>
@@ -34,7 +33,9 @@
             </span>
 
             </a>
-            
+            <label for="switch" >
+                <input type="checkbox" id="switch" class="theme-checkbox">
+            </label>
             <p class="menu cta">Menu</p>
         </header>
         <div class="overlay">
@@ -117,5 +118,6 @@
         © 2024 Rix Telecom. Todos os direitos reservados.<br> Criado por Rix Telecom.
         </div>
     </nav>
+    <script src="../js/index.js"></script>
 </body>
 </html>

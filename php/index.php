@@ -7,6 +7,7 @@
     <link href="../css/index.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
+
 <body>
 
         <nav class="nav-top">
@@ -18,13 +19,37 @@
             
             <nav>
                 <ul class="nav__links">
-                <li><a class="nav_mini_item" href="#">Principal</a></li>
-                    <li><a class="nav_mini_item" href="#">Serviços</a></li>
-                    <li><a class="nav_mini_item" href="#">Contatos</a></li>
-                    <li><a class="nav_mini_item" href="#">Sobre</a></li>
-                    <li><a class="nav_mini_item" href="#">FAQ</a></li>
-                    
-                </ul>
+                    <li>
+                        <div class="painel">
+                            <a class="link-painel" target='_blank' href="#">Link</a>
+                        </div>
+                        <a class="nav_mini_item" href="#">Principal</a>
+                    </li>
+                    <li>
+                        <div class="painel">
+                            <a class="link-painel" target='_blank' href="#">Link</a>
+                        </div>
+                        <a class="nav_mini_item" href="#">Serviços</a>
+                    </li>
+                    <li>
+                        <div class="painel">
+                            <a class="link-painel" target='_blank' href="#">Link</a>
+                        </div>
+                        <a class="nav_mini_item" href="#">Contatos</a>  
+                    </li>
+                    <li>
+                        <div class="painel">
+                            <a class="link-painel" target='_blank' href="#">Link</a>
+                        </div>
+                        <a class="nav_mini_item" href="#">Sobre</a>
+                    </li>
+                    <li>
+                    <div class="painel">
+                        <a class="link-painel" target='_blank' href="#">Link</a>
+                    </div>
+                    <a class="nav_mini_item" href="#">FAQ</a>
+                    </li> 
+                </ul>  
             </nav>
             <a class="cta" href="#">0800 73 20 749
 
@@ -96,11 +121,11 @@
     </div>
 </div>
 <div class="infos">
-<img class="etiqueta" src="../img/logo-rix.png" alt="etiqueta" >
+<img class="logo-rix" src="../img/logo-rix.png" alt="etiqueta" >
             <ul class="menu-textos">
             <div class="menu-titulo">CONTATO</div>
                 <li class="menu-item">
-                    <a href="#" class="menu-link">WhatsApp</a> <br>
+                    <a target='_blank' href='https://wa.me/5583991553500' class="menu-link">WhatsApp</a> <br>
                     <a href="#" class="menu-link">Fixo (83) 3341-5770</a><br>
                     <a href="#" class="menu-link">Email</a>
                 </li>
@@ -108,7 +133,7 @@
             <ul class="menu-textos">
             <div class="menu-titulo">PARCEIROS</div>
                 <li class="menu-item">
-                    <a href="#" class="menu-link">Opix</a><br>
+                    <a target='_blank' href="https://www.opix.com.br/" class="menu-link">Opix</a><br>
                     <a href="#" class="menu-branco">A</a><br>
                     <a href="#" class="menu-branco">A</a><br>
                 </li>

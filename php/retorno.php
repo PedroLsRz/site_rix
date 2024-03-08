@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Inicial</title>
-    <link href="../css/index.css" rel="stylesheet">
+    <title>Trabalhe Conosco</title>
+    <link href="../css/trabalhe-conosco.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 
@@ -17,6 +17,9 @@
             <a class="logo" href="../php/index.php"><img src="../img/rix-logo-2.png" alt="logo"></a>
             
             
+            
+
+
             <nav>
                 <ul class="nav__links">
                     <li>
@@ -63,62 +66,53 @@
             </label>
             <p class="menu cta">Menu</p>
         </header>
-        <div class="overlay">
-            <a class="close">&times;</a>
-            <div class="overlay__content">
-                <a href="#">Services</a>
-                <a href="#">Projects</a>
-                <a href="#">About</a>
-            </div>
-        </div>
-
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-
-    <section class="container">
-        <div class="slider-wrapper">
-            <div class="slider">
-                <img id="slide-1" src="https://images.unsplash.com/photo-1656464868371-602be27fd4c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=80" alt="3D rendering of an imaginary orange planet in space" />
-                <img id="slide-2" src="https://images.unsplash.com/photo-1657586640569-4a3d4577328c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=80" alt="3D rendering of an imaginary green planet in space" />
-                <img id="slide-3" src="https://images.unsplash.com/photo-1656077217715-bdaeb06bd01f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=80" alt="3D rendering of an imaginary blue planet in space" />
-            </div>
-            <div class="slider-nav">
-                <a href="#slide-1"></a>
-                <a href="#slide-2"></a>
-                <a href="#slide-3"></a>
-            </div>
-        </div>
-    </section>
+      
 
 <div class="buttonzap">
   <a href='https://wa.me/5583991553500'class="icon" target='_blank'><i class="fab fa-whatsapp"></i></a>
 </div>
+    <div class="container-trabalho-top">
+        TRABALHE CONOSCO
+    </div>
+    <div class="container-trabalho-mid">
+        Buscamos por profissionais proativos e que buscam aprender um pouco de tudo.
+        <br>
+        Envie seus dados pelo formulário, aguardamos sua mensagem! 
+    </div>
+    <div class="container-trabalho-bottom">
+    <form action="https://formsubmit.co/pedrodbr955@gmail.com" method="POST" enctype="multipart/form-data">
+        
+            <div class="ul-form">
+                <li class="li-form">
+                    
+                    <label for="name">NOME COMPLETO</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Digite seu nome" value required>
+                </li>
+                <div class="ul-form1">
+                <li class="li-form">
+                    <label for="name">E-MAIL</label>
+                    <input type="email" class="form-control" id="name" name="name" placeholder="Digite seu Email" value required>
+                    
+                </li>
+            </div>
+                
+            </div>
+            <li class="li-form">
+                    <label for="file_path">CURRÍCULO</label>
+                    <input type="file" class="input-curriculo" id="file_path" name="file_path">
+                </li>
+                <li class="li-form">
+                    <button type="submit" class="buttom-form">ENVIAR</button>
+                </li>
+         
+    </form>
+
+
+    </div>
+
+
 <nav class="nav-rodape">
 <div class="container-rodape">
-    <div class="divisor">
-        <img class="img-atendimento-left" src="../img/atendimento-left.png">  
-        <div class="clientes">
-            <a target='_blank' href="https://www.defensoria.pb.def.br/">
-                <img class="img-dp" src="../img/DP.png"> 
-            </a>
-            <a target='_blank' href="https://paraiba.pb.gov.br/diretas/saude/projeto-amar">
-                <img class="img-SES" src="../img/SES.png">
-            </a>
-            <a target='_blank' href="https://www.oi.com.br/">
-                <img class="img-oi" src="../img/oi.png">
-            </a>
-            <a target='_blank' href="https://www.conde.pb.gov.br/">
-                <img class="img-conde" src="../img/conde.png">
-            </a>
-            <a target='_blank' href="https://procon.pb.gov.br/">
-                <img class="img-procon" src="../img/procon.png">
-            </a>
-            <a target='_blank' href="https://www.tre-pb.jus.br/">
-                <img class="img-TRE" src="../img/TRE.png">
-            </a>
-        </div>
-        <img class="img-atendimento-right" src="../img/atendimento-right.png"> 
-    </div>
 </div>
 <div class="infos">
 <img class="logo-rix" src="../img/logo-rix.png" alt="etiqueta" >
@@ -134,8 +128,8 @@
             <div class="menu-titulo">PARCEIROS</div>
                 <li class="menu-item">
                     <a target='_blank' href="https://www.opix.com.br/" class="menu-link">Opix</a><br>
-                    <a class="menu-branco">A</a><br>
-                    <a class="menu-branco">A</a>
+                    <a href="#" class="menu-branco">A</a><br>
+                    <a href="#" class="menu-branco">A</a><br>
                 </li>
             </ul>
             <ul class="menu-textos">
@@ -143,7 +137,7 @@
                 <li class="menu-item">
                     <a href="#" class="menu-link">A Rix</a><br>
                     <a href="#" class="menu-link">Agende um retorno</a><br>
-                    <a href="trabalhe-conosco.php" class="menu-link">Trabalhe conosco</a>
+                    <a href="#" class="menu-link">Trabalhe conosco</a>
                 </li>
             </ul>
         </div>

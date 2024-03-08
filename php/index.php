@@ -127,7 +127,7 @@
                 <li class="menu-item">
                     <a target='_blank' href='https://wa.me/5583991553500' class="menu-link">WhatsApp</a> <br>
                     <a href="#" class="menu-link">Fixo (83) 3341-5770</a><br>
-                    <a href="#" class="menu-link">Email</a>
+                    <a href="emails.php" class="menu-link">Emails</a>
                 </li>
             </ul>
             <ul class="menu-textos">
@@ -142,8 +142,8 @@
                 <div class="menu-titulo">SOBRE</div>
                 <li class="menu-item">
                     <a href="#" class="menu-link">A Rix</a><br>
-                    <a href="#" class="menu-link">Agende um retorno</a><br>
                     <a href="trabalhe-conosco.php" class="menu-link">Trabalhe conosco</a>
+                    <a class="menu-branco">A</a><br>
                 </li>
             </ul>
         </div>

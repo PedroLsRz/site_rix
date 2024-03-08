@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trabalhe Conosco</title>
-    <link href="../css/trabalhe-conosco.css" rel="stylesheet">
+    <title>Emails</title>
+    <link href="../css/emails.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 
@@ -72,38 +72,51 @@
   <a href='https://wa.me/5583991553500'class="icon" target='_blank'><i class="fab fa-whatsapp"></i></a>
 </div>
     <div class="container-trabalho-top">
-        TRABALHE CONOSCO
+        CONTATE-NOS
     </div>
     <div class="container-trabalho-mid">
-        Buscamos por profissionais proativos e que buscam aprender um pouco de tudo.
-        <br>
-        Envie seus dados pelo formulário, aguardamos sua mensagem! 
+       Nossos Emails e seus respectivos setores 
     </div>
     <div class="container-trabalho-bottom">
     <form action="https://formsubmit.co/pedrodbr955@gmail.com" method="POST" enctype="multipart/form-data">
         
             <div class="ul-form">
                 <li class="li-form">
-                    
-                    <label for="name">NOME COMPLETO</label>
-                    <input type="text" class="form-control" id="name" name="name" placeholder="Digite seu nome" value required>
+                    <label for="name">SUPORTE 24 HORAS</label>
+                    <div class="form-control">
+                        <div class="email-text-box">suporte24h@rix.com.br</div>
+                        <input type="text" class="inputs-navs" id="name" name="name" placeholder="Digite seu nome completo" autocomplete=off value required>
+                        <input type="text" class="inputs-navs" id="name" name="name" placeholder="Digite o seu cargo" autocomplete=off value required>
+                        <input type="text" class="inputs-navs" id="name" name="name" placeholder="Digite o órgão que você pertence" autocomplete=off value required>
+                        <input type="text" class="inputs-navs" id="name" name="name" placeholder="Digite o motivo de sua mensagem" autocomplete=off value required>                       
+                        <button type="submit" class="buttom-form">ENVIAR</button>
+                    </div>
                 </li>
-                <div class="ul-form1">
-                <li class="li-form">
-                    <label for="name">E-MAIL</label>
-                    <input type="email" class="form-control" id="name" name="name" placeholder="Digite seu Email" value required>
-                    
-                </li>
+          
+                <div class="ul-form">
+                    <li class="li-form">
+                        <label for="name">FINANCEIRO</label>
+                        <div class="form-control">
+                            <div class="email-text-box">contato@rix.com.br</div>
+                            <input type="text" class="inputs-navs" id="name" name="name" placeholder="Digite seu nome completo" autocomplete=off value required>
+                            <input type="text" class="inputs-navs" id="name" name="name" placeholder="Digite o motivo de sua mensagem" autocomplete=off value required>
+                            <button type="submit" class="buttom-form">ENVIAR</button>
+                        </div>  
+                    </li>
+                </div>  
+                <div class="ul-form">
+                    <li class="li-form">
+                        <label for="name">COMERCIAL</label>
+                        <div class="form-control">
+                            <div class="email-text-box">comercial@rix.com.br</div>
+                            <input type="text" class="inputs-navs" id="name" name="name" placeholder="Digite seu nome completo" autocomplete=off value required>
+                            <input type="text" class="inputs-navs" id="name" name="name" placeholder="Digite o motivo de sua mensagem" autocomplete=off value required>
+                            <button type="submit" class="buttom-form">ENVIAR</button>
+                        </div>  
+                    </li>
+                </div> 
             </div>
                 
-            </div>
-            <li class="li-form">
-                    <label for="file_path">CURRÍCULO</label>
-                    <input type="file" class="input-curriculo" id="file_path" name="file_path">
-                </li>
-                <li class="li-form">
-                    <button type="submit" class="buttom-form">ENVIAR</button>
-                </li>
          
     </form>
 
@@ -121,7 +134,7 @@
                 <li class="menu-item">
                     <a target='_blank' href='https://wa.me/5583991553500' class="menu-link">WhatsApp</a> <br>
                     <a href="#" class="menu-link">Fixo (83) 3341-5770</a><br>
-                    <a href="#" class="menu-link">Email</a>
+                    <a href="#" class="menu-branco">A</a><br>
                 </li>
             </ul>
             <ul class="menu-textos">
@@ -137,7 +150,7 @@
                 <li class="menu-item">
                     <a href="#" class="menu-link">A Rix</a><br>
                     <a href="#" class="menu-link">Agende um retorno</a><br>
-                    <a href="#" class="menu-link">Trabalhe conosco</a>
+                    <a href="trabalhe-conosco.php" class="menu-link">Trabalhe conosco</a>
                 </li>
             </ul>
         </div>

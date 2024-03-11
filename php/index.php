@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -152,7 +152,7 @@
     </div>
     
         <div class="tarja">
-        © 2024 Rix Telecom. Todos os direitos reservados.<br> Criado por Rix Telecom.
+        &copy; 2024 Rix Telecom. Todos os direitos reservados.<br> Criado por Rix Telecom.
         </div>
     </nav>
     <script src="../js/index.js"></script>

@@ -1,25 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emails</title>
     <link href="../css/emails.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <script src="../js/crescediv.js" defer></script>
 </head>
 
 <body>
 
         <nav class="nav-top">
             <a class="nav_mini_item" href="#">Você está em: </a>
+            
         </nav>
         <header>
             <a class="logo" href="../php/index.php"><img src="../img/rix-logo-2.png" alt="logo"></a>
-            
-            
-            
-
-
             <nav>
                 <ul class="nav__links">
                     <li>
@@ -52,18 +49,11 @@
                     </div>
                     <a class="nav_mini_item" href="#">FAQ</a>
                     </li> 
+                    
                 </ul>  
             </nav>
-            <a class="cta" href="#">0800 73 20 749
-
-            <span class="material-symbols-outlined phone-0800">
-            call
-            </span>
-
             </a>
-            <label for="switch" >
-                <input type="checkbox" id="switch" class="theme-checkbox">
-            </label>
+            
             <p class="menu cta">Menu</p>
         </header>
       
@@ -71,6 +61,7 @@
 <div class="buttonzap">
   <a href='https://wa.me/5583991553500'class="icon" target='_blank'><i class="fab fa-whatsapp"></i></a>
 </div>
+<div class="container-trabalho">
     <div class="container-trabalho-top">
         CONTATE-NOS
     </div>
@@ -82,13 +73,13 @@
         
             <div class="ul-form">
                 <li class="li-form">
-                    <label for="name">SUPORTE 24 HORAS</label>
-                    <div class="form-control">
-                        <div class="email-text-box">suporte24h@rix.com.br</div>
-                        <input type="text" class="inputs-navs" id="name" name="name" placeholder="Digite seu nome completo" autocomplete=off value required>
-                        <input type="text" class="inputs-navs" id="name" name="name" placeholder="Digite o seu cargo" autocomplete=off value required>
-                        <input type="text" class="inputs-navs" id="name" name="name" placeholder="Digite o órgão que você pertence" autocomplete=off value required>
-                        <input type="text" class="inputs-navs" id="name" name="name" placeholder="Digite o motivo de sua mensagem" autocomplete=off value required>                       
+                    <label>SUPORTE 24 HORAS</label>
+                    <div class="form-control" id="control">
+                        <div class="email-text-box" id="email-text-box-left">suporte24h@rix.com.br</div>
+                        <input type="text" class="inputs-navs" id="navinput" name="name" placeholder="Digite seu nome completo" autocomplete=off value required>
+                        <input type="text" class="inputs-navs" id="navinput" name="name" placeholder="Digite o seu cargo" autocomplete=off value required>
+                        <input type="text" class="inputs-navs" id="navinput" name="name" placeholder="Digite o órgão que você pertence" autocomplete=off value required>
+                        <textarea type="message" cols="10" rows"5" class="inputs-navs" placeholder="Digite o motivo de sua mensagem" autocomplete=off value required></textarea>                       
                         <button type="submit" class="buttom-form">ENVIAR</button>
                     </div>
                 </li>
@@ -97,9 +88,9 @@
                     <li class="li-form">
                         <label for="name">FINANCEIRO</label>
                         <div class="form-control">
-                            <div class="email-text-box">contato@rix.com.br</div>
+                            <div class="email-text-box" id="email-text-box-center">contato@rix.com.br</div>
                             <input type="text" class="inputs-navs" id="name" name="name" placeholder="Digite seu nome completo" autocomplete=off value required>
-                            <input type="text" class="inputs-navs" id="name" name="name" placeholder="Digite o motivo de sua mensagem" autocomplete=off value required>
+                            <textarea type="message" cols="10" rows"5" class="inputs-navs" placeholder="Digite o motivo de sua mensagem" autocomplete=off value required></textarea>
                             <button type="submit" class="buttom-form">ENVIAR</button>
                         </div>  
                     </li>
@@ -108,9 +99,9 @@
                     <li class="li-form">
                         <label for="name">COMERCIAL</label>
                         <div class="form-control">
-                            <div class="email-text-box">comercial@rix.com.br</div>
+                            <div class="email-text-box" id="email-text-box-right">comercial@rix.com.br</div>
                             <input type="text" class="inputs-navs" id="name" name="name" placeholder="Digite seu nome completo" autocomplete=off value required>
-                            <input type="text" class="inputs-navs" id="name" name="name" placeholder="Digite o motivo de sua mensagem" autocomplete=off value required>
+                            <textarea type="message" cols="10" rows"5" class="inputs-navs" placeholder="Digite o motivo de sua mensagem" autocomplete=off value required></textarea>
                             <button type="submit" class="buttom-form">ENVIAR</button>
                         </div>  
                     </li>
@@ -122,7 +113,7 @@
 
 
     </div>
-
+    </div>
 
 <nav class="nav-rodape">
 <div class="container-rodape">
@@ -159,9 +150,10 @@
     </div>
     
         <div class="tarja">
-        © 2024 Rix Telecom. Todos os direitos reservados.<br> Criado por Rix Telecom.
+        &copy; 2024 Rix Telecom. Todos os direitos reservados.<br> Criado por Rix Telecom.
         </div>
     </nav>
     <script src="../js/index.js"></script>
+    
 </body>
 </html>

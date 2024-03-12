@@ -402,7 +402,8 @@ label{
   &:hover{
     transition: 0.3s;
     cursor: pointer;
-    box-shadow: 0px 0px 0.6px #00a123;
+    color: #ffffff75;
+    
   }
 }
 .inputs-navs{

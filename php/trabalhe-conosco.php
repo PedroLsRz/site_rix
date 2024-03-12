@@ -71,9 +71,11 @@
 <div class="buttonzap">
   <a href='https://wa.me/5583991553500'class="icon" target='_blank'><i class="fab fa-whatsapp"></i></a>
 </div>
+<div class="container-trabalho">
     <div class="container-trabalho-top">
         TRABALHE CONOSCO
     </div>
+    
     <div class="container-trabalho-mid">
         Buscamos por profissionais proativos e que buscam aprender um pouco de tudo.
         <br>
@@ -109,7 +111,7 @@
 
 
     </div>
-
+</div>
 
 <nav class="nav-rodape">
     

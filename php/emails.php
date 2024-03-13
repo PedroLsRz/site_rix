@@ -127,34 +127,26 @@
 </div>
 <div class="infos">
 <img class="logo-rix" src="../img/logo-rix.png" alt="etiqueta" >
+<ul class="menu-textos">
+                <div class="menu-titulo">LINKS RÁPIDOS</div>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Sobre Rix</a><br>
+                    <a href="trabalhe-conosco.php" class="menu-link">Trabalhe conosco</a><br>
+                    <a target='_blank' class="menu-link" href="https://www.google.com/search?q=teste+de+velocidade+de+internet&oq=test…de+internet&aqs=chrome..69i57j0l5j69i61l2.800j0j9&sourceid=chrome&ie=UTF-8">Teste de velocidade</a><br>
+                    <a href="#" class="menu-link">FAQ</a>
+                </li>
+            </ul>
             <ul class="menu-textos">
-            <div class="menu-titulo">CONTATO</div>
+            <div class="menu-titulo">FALE CONOSCO</div>
                 <li class="menu-item">
                     <a target='_blank' href='https://wa.me/5583991553500' class="menu-link">WhatsApp</a> <br>
-                    <a href="#" class="menu-link">Fixo (83) 3341-5770</a><br>
-                    <a href="#" class="menu-branco">A</a><br>
-                </li>
-            </ul>
-            <ul class="menu-textos">
-            <div class="menu-titulo">PARCEIROS</div>
-                <li class="menu-item">
-                    <a target='_blank' href="https://www.opix.com.br/" class="menu-link">Opix</a><br>
-                    <a href="#" class="menu-branco">A</a><br>
-                    <a href="#" class="menu-branco">A</a><br>
-                </li>
-            </ul>
-            <ul class="menu-textos">
-                <div class="menu-titulo">SOBRE</div>
-                <li class="menu-item">
-                    <a href="#" class="menu-link">A Rix</a><br>
-                    <a href="trabalhe-conosco.php" class="menu-link">Trabalhe conosco</a>
-                    <a href="#" class="menu-branco">A</a><br>
+                    <a class="menu-link">Fixo (83) 3341-5770 </a><br>
+                    <a class="menu-link">Contato 0800 73 20 749</a><br>
+                    <a class="menu-branco">Contato 0800 73 20 749</a>
                 </li>
             </ul>
         </div>
-    <div class="container-logo">  
-        <div class="endereco"><img class="pin" src="../img/pin.png">Av. Francisco Lustosa Cabral, 481, Cristo Redentor, João Pessoa/PB </div>
-    </div>
+    
     
         <div class="tarja">
         &copy; 2024 Rix Telecom. Todos os direitos reservados.<br> Criado por Rix Telecom.

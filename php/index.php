@@ -93,6 +93,7 @@
 <div class="buttonzap">
   <a href='https://wa.me/5583991553500'class="icon" target='_blank'><i class="fab fa-whatsapp"></i></a>
 </div>
+
 <nav class="nav-rodape">
 <div class="container-rodape">
     <div class="divisor">
@@ -123,33 +124,36 @@
 <div class="infos">
 <img class="logo-rix" src="../img/logo-rix.png" alt="etiqueta" >
             <ul class="menu-textos">
-            <div class="menu-titulo">CONTATO</div>
+                <div class="menu-titulo">LINKS RÁPIDOS</div>
                 <li class="menu-item">
-                    <a target='_blank' href='https://wa.me/5583991553500' class="menu-link">WhatsApp</a> <br>
-                    <a href="#" class="menu-link">Fixo (83) 3341-5770</a><br>
-                    <a href="emails.php" class="menu-link">Emails</a>
+                    <a href="#" class="menu-link">Sobre Rix</a><br>
+                    <a href="trabalhe-conosco.php" class="menu-link">Trabalhe conosco</a><br>
+                    <a target='_blank' class="menu-link" href="https://www.google.com/search?q=teste+de+velocidade+de+internet&oq=test…de+internet&aqs=chrome..69i57j0l5j69i61l2.800j0j9&sourceid=chrome&ie=UTF-8">Teste de velocidade</a><br>
+                    <a href="#" class="menu-link">FAQ</a>
                 </li>
             </ul>
             <ul class="menu-textos">
-            <div class="menu-titulo">PARCEIROS</div>
+            <div class="menu-titulo">FALE CONOSCO</div>
+                <li class="menu-item">
+                    <a target='_blank' href='https://wa.me/5583991553500' class="menu-link">WhatsApp</a> <br>
+                    <a href="emails.php" class="menu-link">Emails</a><br>
+                    <a class="menu-link">Fixo (83) 3341-5770 </a><br>
+                    <a class="menu-link">Contato 0800 73 20 749</a>
+                </li>
+            </ul>
+          <!--   <ul class="menu-textos">
+           <div class="menu-titulo">PARCEIROS</div>
                 <li class="menu-item">
                     <a target='_blank' href="https://www.opix.com.br/" class="menu-link">Opix</a><br>
                     <a class="menu-branco">A</a><br>
                     <a class="menu-branco">A</a>
-                </li>
-            </ul>
-            <ul class="menu-textos">
-                <div class="menu-titulo">SOBRE</div>
-                <li class="menu-item">
-                    <a href="#" class="menu-link">A Rix</a><br>
-                    <a href="trabalhe-conosco.php" class="menu-link">Trabalhe conosco</a>
-                    <a class="menu-branco">A</a><br>
-                </li>
-            </ul>
+                </li> 
+            </ul>-->
+            
         </div>
-    <div class="container-logo">  
+    <!--<div class="container-logo">  
         <div class="endereco"><img class="pin" src="../img/pin.png">Av. Francisco Lustosa Cabral, 481, Cristo Redentor, João Pessoa/PB </div>
-    </div>
+    </div>-->
     
         <div class="tarja">
         &copy; 2024 Rix Telecom. Todos os direitos reservados.<br> Criado por Rix Telecom.

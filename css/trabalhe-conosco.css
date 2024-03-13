@@ -306,11 +306,11 @@ li:hover .painel {
 /* END DARK MODE BUTTON */
 .container-trabalho{
   background-image: url(../img/trabalhe-conosco.png);
-  background-color: #0a0a0a;
+  background-color: #0a0a0abb;
   background-size: cover;
   height: 100vh;
 }
-.container-trabalho-top{
+h1{
   display: flex;
   justify-content: center;
   height: 20vh;
@@ -318,6 +318,7 @@ li:hover .painel {
   font-size: 20pt;
   font-weight: 600;
   color: #ffffff;
+  margin: 0;
 }
 .container-trabalho-mid{
   display: flex;
@@ -415,20 +416,8 @@ button{
   bottom: 0;
   left: 0;
   right: 0;
+  margin-top: 50px;
 }
-  /* START ATENDIMENTOS*/
-.container-rodape{
-  
-  border-top: 1px solid var(--border-top);
-  border-bottom: var(--border-bottom);
-
-  &.dark-mode {
-    border-top: var(--border-top);
-    border-bottom: var(--border-bottom);
-  }
-
-}
-  /* END ATENDIMENTOS*/
 
 .infos{
   display: flex;
@@ -440,6 +429,7 @@ button{
   display: flex;
   height: 25vh;
   margin-left: 18px;
+  margin-right: 70px;
   justify-content: center;
   align-items: center;
 }
@@ -449,7 +439,7 @@ button{
   font-family: "Montserrat", sans-serif;
   color: var(--color);
 }
-.menu-titulo{
+.h2{
   display: flex;
   font-size: 18pt; 
   text-decoration: none;
@@ -458,6 +448,7 @@ button{
   font-family: "Montserrat", sans-serif;
   color: var(--color);
   color: #041545;
+  margin: 0;
 }
 .menu-item{
   display: flex;
@@ -468,7 +459,7 @@ li{
   
 }
 .menu-link{
-
+  
   text-decoration: none;
   color: black;
   padding-bottom: 2px;
@@ -477,6 +468,7 @@ li{
 .menu-link:hover{
   transition: 0.3s;
   color: rgb(19, 50, 226);
+  margin-left: 4px;
 }
 .menu-branco{
   color: transparent;
@@ -510,6 +502,7 @@ li{
   align-items: center;
   text-align: center;
   font-family: "Montserrat", sans-serif;
+  margin-top: 70px;
 }
 
 /* END RODAPÉ*/

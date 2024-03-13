@@ -371,6 +371,8 @@ li:hover .painel {
   bottom: 0;
   left: 0;
   right: 0;
+  margin-top: 50px;
+  
 }
   /* START ATENDIMENTOS*/
 .container-rodape{
@@ -515,6 +517,7 @@ li{
 .menu-link:hover{
   transition: 0.3s;
   color: rgb(19, 50, 226);
+  margin-left: 4px;
 }
 .menu-branco{
   color: transparent;
@@ -544,6 +547,7 @@ li{
   background-color: black;
   color: white;   
   justify-content: center;
+  margin-top: 50px;
   height: 7vh;
   align-items: center;
   text-align: center;

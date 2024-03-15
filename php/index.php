@@ -11,7 +11,7 @@
 <body>
 
         <nav class="nav-top">
-            <a class="nav_mini_item" href="#">Você está em: </a>
+         
         </nav>
         <header>
             <a class="logo" href="../php/index.php"><img src="../img/rix-logo-2.png" alt="logo"></a>
@@ -19,11 +19,8 @@
             
             <nav>
                 <ul class="nav__links">
-                    <li>
-                        <div class="painel">
-                            <a class="link-painel" target='_blank' href="#">Link</a>
-                        </div>
-                        <a class="nav_mini_item" href="#">Principal</a>
+                <li>
+                        <a class="nav_mini_item_no_painel" href="index.php">Principal</a>
                     </li>
                     <li>
                         <div class="painel">
@@ -38,16 +35,10 @@
                         <a class="nav_mini_item" href="#">Contatos</a>  
                     </li>
                     <li>
-                        <div class="painel">
-                            <a class="link-painel" target='_blank' href="#">Link</a>
-                        </div>
-                        <a class="nav_mini_item" href="#">Sobre</a>
+                        <a class="nav_mini_item_no_painel" href="rix-telecom.php">Sobre</a>
                     </li>
                     <li>
-                    <div class="painel">
-                        <a class="link-painel" target='_blank' href="#">Link</a>
-                    </div>
-                    <a class="nav_mini_item" href="#">FAQ</a>
+                    <a class="nav_mini_item_no_painel" href="faq.php">FAQ</a>
                     </li> 
                 </ul>  
             </nav>
@@ -123,24 +114,33 @@
 </div>
 <div class="infos">
 <img class="logo-rix" src="../img/logo-rix.png" alt="etiqueta" >
-            <ul class="menu-textos">
-                <div class="menu-titulo">LINKS RÁPIDOS</div>
-                <li class="menu-item">
-                    <a href="#" class="menu-link">Sobre Rix</a><br>
-                    <a href="trabalhe-conosco.php" class="menu-link">Trabalhe conosco</a><br>
-                    <a target='_blank' class="menu-link" href="https://www.google.com/search?q=teste+de+velocidade+de+internet&oq=test…de+internet&aqs=chrome..69i57j0l5j69i61l2.800j0j9&sourceid=chrome&ie=UTF-8">Teste de velocidade</a><br>
-                    <a href="#" class="menu-link">FAQ</a>
-                </li>
-            </ul>
-            <ul class="menu-textos">
-            <div class="menu-titulo">FALE CONOSCO</div>
-                <li class="menu-item">
-                    <a target='_blank' href='https://wa.me/5583991553500' class="menu-link">WhatsApp</a> <br>
-                    <a href="emails.php" class="menu-link">Emails</a><br>
-                    <a class="menu-link">Fixo (83) 3341-5770 </a><br>
-                    <a class="menu-link">Contato 0800 73 20 749</a>
-                </li>
-            </ul>
+<ul class="menu-textos">
+            <h2>LINKS RÁPIDOS</h2>
+            <li class="menu-item">
+                <a target='_blank' class="menu-link" href="https://www.google.com/search?q=teste+de+velocidade+de+internet&oq=test…de+internet&aqs=chrome..69i57j0l5j69i61l2.800j0j9&sourceid=chrome&ie=UTF-8">Teste de velocidade</a>
+                <a class="menu-branco">.</a>
+                <a class="menu-branco">.</a>
+                <a class="menu-branco">.</a>
+            </li>
+        </ul>
+        <ul class="menu-textos">
+        <h2>FALE CONOSCO</h2>
+            <li class="menu-item">
+                <a target='_blank' href='https://wa.me/5583991553500' class="menu-link">WhatsApp</a>
+                <a href="#" class="menu-link">Telefones</a>
+                <a href="emails.php" class="menu-link">E-mails</a>
+                <a class="menu-branco">.</a>
+            </li>
+        </ul>
+        <ul class="menu-textos">
+        <h2>SOBRE</h2>
+            <li class="menu-item">
+                <a href="rix-telecom.php" class="menu-link">A Rix</a> 
+                <a href="trabalhe-conosco.php" class="menu-link">Trabalhe conosco</a>
+                <a href="faq.php" class="menu-link">FAQ</a>
+                <a class="menu-branco">A</a>
+            </li>
+        </ul>
           <!--   <ul class="menu-textos">
            <div class="menu-titulo">PARCEIROS</div>
                 <li class="menu-item">

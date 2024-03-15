@@ -65,16 +65,36 @@ body {
 
   /* End Icon */
 
+  .nav_mini_item_no_painel{
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    font-size: 14pt;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 3px solid rgba(255, 255, 255, 0);
+    &:hover{
+      
+   
+      border-bottom: 3px solid #041545;
+    }
+  }
+  
 .nav_mini_item{
   display: block;
-  position: relative;
-  color: white;
+  width: 100%;
   text-decoration: none;
   font-size: 14pt;
-  margin-left: 10%;
   margin-top: 30px;
   margin-bottom: 30px;
+  border-bottom: 3px solid rgba(255, 255, 255, 0);
+  &:hover{
+
+    
+    border-bottom: 3px solid #041545;
+  }
 }
+
 header {
   position: sticky;
   z-index: 1020;
@@ -112,10 +132,12 @@ header {
   list-style: none;
   display: flex;
   margin: 0;
+  
 }
 
 .nav__links li {
   padding: 0px 20px;
+  
 }
 
 .nav__links li a {
@@ -309,7 +331,7 @@ li:hover .painel {
   background-size: cover;
   background-image: url(../img/office-cut.jpg);
   height: 45vw;
-  margin-bottom: 20px;
+  
 }
 .titulo{
   display: flex;
@@ -456,7 +478,8 @@ button{
   bottom: 0;
   left: 0;
   right: 0;
-  margin-top: 50px ;
+  padding-top: 30px;
+  
 }
 
 
@@ -479,11 +502,10 @@ button{
   font-family: "Montserrat", sans-serif;
   color: var(--color);
 }
-.menu-titulo{
+h2{
   display: flex;
   font-size: 18pt; 
   text-decoration: none;
-  padding-bottom: 25px;
   font-weight: bolder;
   font-family: "Montserrat", sans-serif;
   color: var(--color);
@@ -498,13 +520,15 @@ li{
   
 }
 .menu-link{
-
+  display: flex;
+  font-size: 12pt;
   text-decoration: none;
   color: black;
-  padding-bottom: 2px;
+  margin-bottom: 5px;
   color: var(--color);
-  
+
 }
+
 .menu-link:hover{
   transition: 0.3s;
   color: rgb(19, 50, 226);
@@ -512,7 +536,7 @@ li{
 }
 .menu-branco{
   color: transparent;
-  padding-bottom: 2px;
+  padding-bottom: 5px;
 }
 .container-logo{
   margin-top: 50px;
@@ -544,7 +568,7 @@ li{
   align-items: center;
   text-align: center;
   font-family: "Montserrat", sans-serif;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 /* END RODAPÉ*/

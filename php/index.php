@@ -6,68 +6,12 @@
     <title>Página Inicial</title>
     <link href="../css/index.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
 <body>
 
-        <nav class="nav-top">
-         
-        </nav>
-        <header>
-            <a class="logo" href="../php/index.php"><img src="../img/rix-logo-2.png" alt="logo"></a>
-            
-            
-            <nav>
-                <ul class="nav__links">
-                <li>
-                        <a class="nav_mini_item_no_painel" href="index.php">PRINCIPAL</a>
-                    </li>
-                    <li>
-                        <div class="painel">
-                            
-                        </div>
-                        <a class="nav_mini_item" href="#">SERVIÇOS</a>
-                    </li>
-                    <li>
-                        <div class="painel">
-                            <a class="link-painel" target='_blank' href="https://wa.me/5583991553500">WhatsApp</a>
-                            <a class="link-painel" target='_blank' href="#">Telefones</a>
-                            <a class="link-painel" target='_blank' href="emails.php">E-mails</a>
-                            
-                        </div>
-                        <a class="nav_mini_item" href="#">CONTATOS</a>  
-                    </li>
-                    <li>
-                        <a class="nav_mini_item_no_painel" href="rix-telecom.php">SOBRE</a>
-                    </li>
-                    <li>
-                    <a class="nav_mini_item_no_painel" href="faq.php">FAQ</a>
-                    </li> 
-                </ul>  
-            </nav>
-            <a class="cta" href="#">0800 73 20 749
-
-            <span class="material-symbols-outlined phone-0800">
-            call
-            </span>
-
-            </a>
-            <label for="switch" >
-                <input type="checkbox" id="switch" class="theme-checkbox">
-            </label>
-            <p class="menu cta">Menu</p>
-        </header>
-        <div class="overlay">
-            <a class="close">&times;</a>
-            <div class="overlay__content">
-                <a href="#">Services</a>
-                <a href="#">Projects</a>
-                <a href="#">About</a>
-            </div>
-        </div>
-
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<?php include '../html/navbar.html';?>
 
     <section class="container">
         <div class="slider-wrapper">
@@ -115,53 +59,12 @@
         <img class="img-atendimento-right" src="../img/atendimento-right.png"> 
     </div>
 </div>
-<div class="infos">
-<img class="logo-rix" src="../img/logo-rix.png" alt="etiqueta" >
-<ul class="menu-textos">
-            <h2>LINKS RÁPIDOS</h2>
-            <li class="menu-item">
-                <a target='_blank' class="menu-link" href="https://www.google.com/search?q=teste+de+velocidade+de+internet&oq=test…de+internet&aqs=chrome..69i57j0l5j69i61l2.800j0j9&sourceid=chrome&ie=UTF-8">Teste de velocidade</a>
-                <a class="menu-branco">.</a>
-                <a class="menu-branco">.</a>
-                <a class="menu-branco">.</a>
-            </li>
-        </ul>
-        <ul class="menu-textos">
-        <h2>FALE CONOSCO</h2>
-            <li class="menu-item">
-                <a target='_blank' href='https://wa.me/5583991553500' class="menu-link">WhatsApp</a>
-                <a href="#" class="menu-link">Telefones</a>
-                <a href="emails.php" class="menu-link">E-mails</a>
-                <a class="menu-branco">.</a>
-            </li>
-        </ul>
-        <ul class="menu-textos">
-        <h2>SOBRE</h2>
-            <li class="menu-item">
-                <a href="rix-telecom.php" class="menu-link">A Rix</a> 
-                <a href="trabalhe-conosco.php" class="menu-link">Trabalhe conosco</a>
-                <a href="faq.php" class="menu-link">FAQ</a>
-                <a class="menu-branco">A</a>
-            </li>
-        </ul>
-          <!--   <ul class="menu-textos">
-           <div class="menu-titulo">PARCEIROS</div>
-                <li class="menu-item">
-                    <a target='_blank' href="https://www.opix.com.br/" class="menu-link">Opix</a><br>
-                    <a class="menu-branco">A</a><br>
-                    <a class="menu-branco">A</a>
-                </li> 
-            </ul>-->
-            
-        </div>
-    <!--<div class="container-logo">  
-        <div class="endereco"><img class="pin" src="../img/pin.png">Av. Francisco Lustosa Cabral, 481, Cristo Redentor, João Pessoa/PB </div>
-    </div>-->
-    
-        <div class="tarja">
-        &copy; 2024 Rix Telecom. Todos os direitos reservados.<br> Criado por Rix Telecom.
-        </div>
-    </nav>
-    <script src="../js/index.js"></script>
+
+<footer>
+<?php include '../html/rodape.html';?>
+</footer>
+
+<script src="../js/index.js"></script>
+
 </body>
 </html>

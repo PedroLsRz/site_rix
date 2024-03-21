@@ -20,22 +20,25 @@
             <nav>
                 <ul class="nav__links">
                 <li>
-                        <a class="nav_mini_item_no_painel" href="index.php">Principal</a>
+                        <a class="nav_mini_item_no_painel" href="index.php">PRINCIPAL</a>
                     </li>
                     <li>
                         <div class="painel">
-                            <a class="link-painel" target='_blank' href="#">Link</a>
+                            
                         </div>
-                        <a class="nav_mini_item" href="#">Serviços</a>
+                        <a class="nav_mini_item" href="#">SERVIÇOS</a>
                     </li>
                     <li>
                         <div class="painel">
-                            <a class="link-painel" target='_blank' href="#">Link</a>
+                            <a class="link-painel" target='_blank' href="https://wa.me/5583991553500">WhatsApp</a>
+                            <a class="link-painel" target='_blank' href="#">Telefones</a>
+                            <a class="link-painel" target='_blank' href="emails.php">E-mails</a>
+                            
                         </div>
-                        <a class="nav_mini_item" href="#">Contatos</a>  
+                        <a class="nav_mini_item" href="#">CONTATOS</a>  
                     </li>
                     <li>
-                        <a class="nav_mini_item_no_painel" href="rix-telecom.php">Sobre</a>
+                        <a class="nav_mini_item_no_painel" href="rix-telecom.php">SOBRE</a>
                     </li>
                     <li>
                     <a class="nav_mini_item_no_painel" href="faq.php">FAQ</a>

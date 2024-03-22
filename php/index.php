@@ -14,7 +14,7 @@
 <?php include '../html/navbar.html';?>
 
     <section class="container">
-        <div class="slider-wrapper">
+        <div class="slider-wrapper" id="slider-focus">
             <div class="slider">
                 <img id="slide-1" src="https://images.unsplash.com/photo-1656464868371-602be27fd4c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=80" alt="3D rendering of an imaginary orange planet in space" />
                 <img id="slide-2" src="https://images.unsplash.com/photo-1657586640569-4a3d4577328c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=80" alt="3D rendering of an imaginary green planet in space" />
@@ -27,11 +27,7 @@
             </div>
         </div>
     </section>
-
-<div class="buttonzap">
-  <a href='https://wa.me/5583991553500'class="icon" target='_blank'><i class="fab fa-whatsapp"></i></a>
-</div>
-
+    <?php include '../html/buttonzap.html';?>
 <nav class="nav-rodape">
 <div class="container-rodape">
     <div class="divisor">
@@ -65,6 +61,6 @@
 </footer>
 
 <script src="../js/index.js"></script>
-
+<script src="../js/fontsize-nav.js"></script>
 </body>
 </html>

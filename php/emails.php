@@ -14,7 +14,7 @@
 
 <?php include '../html/navbar.html';?>
 
-<div class="buttonzap"><a href='https://wa.me/5583991553500'class="icon" target='_blank'><i class="fab fa-whatsapp"></i></a></div>
+<?php include '../html/buttonzap.html';?>
 
 <div class="container-emails">
     <div class="titulo">CONTATE-NOS</div>
@@ -71,6 +71,6 @@
 
 <script src="../js/index.js"></script>
 <script src="../js/emails.js" defer></script>
-
+<script src="../js/fontsize-nav.js"></script>
 </body>
 </html>

@@ -34,37 +34,7 @@ body {
     }
 }
 
-/* icon whatsapp */
 
-.icon {
-  position: fixed;
-  bottom: 30px;
-  right: 25px;
-  font-size: 30px;
-  background-color: #01e675;
-  color: #ffffff;
-  border-radius: 50%;
-  padding: 3px;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  text-decoration: none;
-  z-index: 100;
-  box-shadow: 2px 2px 2px #c0bdbd;
-}
-  
-.icon .fab{
-  padding-top: 9px;
-}
-
-.icon:hover{
-  background-color: #fff;
-  color: #029e3b;
-  font-weight: 900;
-  box-shadow: 2px 2px 20px #5fe690;
-}
-
-/* END ICON WHATSAPP */
   
 
 /* START DARK MODE BUTTON */
@@ -337,8 +307,6 @@ li{
   }
 }
 
-
-}
 .menu-branco{
   color: transparent;
   padding-bottom: 5px;

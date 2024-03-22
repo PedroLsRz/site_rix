@@ -13,10 +13,7 @@
 <body>
 
 <?php include '../html/navbar.html';?>
-
-<div class="buttonzap">
-  <a href='https://wa.me/5583991553500'class="icon" target='_blank'><i class="fab fa-whatsapp"></i></a>
-</div>
+<?php include '../html/buttonzap.html';?>
 <div class="container-trabalho">
     <h1>TRABALHE CONOSCO</h1>
     
@@ -60,7 +57,7 @@
 <footer>
 <?php include '../html/rodape.html';?>
 </footer>
-
+    <script src="../js/fontsize-nav.js"></script>
     <script src="../js/index.js"></script>
 </body>
 </html>

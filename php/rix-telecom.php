@@ -14,10 +14,7 @@
 <?php include '../html/navbar.html';?>
 
 
-<div class="buttonzap">
-  <a href='https://wa.me/5583991553500'class="icon" target='_blank'><i class="fab fa-whatsapp"></i></a>
-</div>
-
+<?php include '../html/buttonzap.html';?>
 <h1>SOBRE A EMPRESA</h1>
 <div class="container">
 
@@ -63,6 +60,6 @@
 </footer>
 
 <script src="../js/index.js"></script>
-
+<script src="../js/fontsize-nav.js"></script>
 </body>
 </html>

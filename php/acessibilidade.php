@@ -15,6 +15,7 @@ ACESSIBILIDADE
 </div>
 <?php include '../html/buttonzap.html';?>
 <?php include '../html/rodape.html';?>
+
 <script src="../js/fontsize-nav.js"></script>
 <script src="../js/index.js"></script>
 </body>

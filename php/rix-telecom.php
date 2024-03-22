@@ -19,7 +19,7 @@
 <div class="container">
 
     
-    <div class="container-mid">
+    <div class="container-mid" id="mid-text">
    <p>A <strong>Rix</strong> ( RIX TELECOM LTDA ) CNPJ: 04.352.312/0001-15, é uma empresa do ramo de Telecomunicações,
     especialista em <br>Internet Fibra Óptica e Rádios Gigabit. 
     Criada em dia 26 de março de 2001, na cidade de Campina Grande.</p>
@@ -61,5 +61,6 @@
 
 <script src="../js/index.js"></script>
 <script src="../js/fontsize-nav.js"></script>
+<!-- <script src="../js/fontsize-rix-telecom.js"></script> -->
 </body>
 </html>

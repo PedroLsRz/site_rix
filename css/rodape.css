@@ -33,16 +33,9 @@
     width: 25%;
     font-family: "Montserrat", sans-serif;
     color: var(--color);
+    font-size: 18px;
   }
-  .menu-titulo{
-    display: flex;
-    font-size: 18pt; 
-    text-decoration: none;
-    padding-bottom: 25px;
-    font-weight: bolder;
-    font-family: "Montserrat", sans-serif;
-    color: var(--color);
-  }
+
   .menu-item{
     display: flex;
     flex-direction: column;

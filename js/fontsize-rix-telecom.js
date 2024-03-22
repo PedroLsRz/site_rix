@@ -1,7 +1,7 @@
 
 let increase = document.getElementById('increase');
 let decrease = document.getElementById('decrease');
-let h3 = document.querySelector('h3');
+let h1 = document.getElementById('mid-text');
 
 let getfontsize = (el) => {
 let size = window.getComputedStyle(el, null)
@@ -10,9 +10,9 @@ return parseFloat(size);
 }
 
 increase.addEventListener('click', () => {
-    h3.style.fontSize = (getfontsize(h3) + 1) + 'px';
+    h1.style.fontSize = (getfontsize(h1) + 1) + 'px';
 })
 
 decrease.addEventListener('click', () => {
-    h3.style.fontSize = (getfontsize(h3) - 1) + 'px';
+    h1.style.fontSize = (getfontsize(h1) - 1) + 'px';
 })

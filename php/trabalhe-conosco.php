@@ -57,7 +57,7 @@
 <footer>
 <?php include '../html/rodape.html';?>
 </footer>
-    
+<script src="../js/fontsize.js"></script>
     <script src="../js/index.js"></script>
 </body>
 </html>

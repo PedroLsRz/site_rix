@@ -92,11 +92,7 @@
     margin-top: 30px;
     margin-bottom: 30px;
     border-bottom: 3px solid rgba(255, 255, 255, 0);
-    &:hover{
     
-    
-    border-bottom: 3px solid #041545;
-    }
 }
 
 .nav_mini_item{
@@ -107,9 +103,7 @@
     margin-top: 30px;
     margin-bottom: 30px;
     border-bottom: 3px solid rgba(255, 255, 255, 0);
-    &:hover{
-        border-bottom: 3px solid #041545;
-    }
+    
 }
 header {
     position: sticky;
@@ -174,15 +168,16 @@ header {
     min-width: 80px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     margin-top: 80px;
-    padding-left: 10vw;
     padding: 12px 16px;
     z-index: 1;
-    height: 10vh;
-    transition: 0.5s;
+    height: 15vh;
     justify-content: center;
     flex-direction: column;
     border-radius: 1px solid white;
+    border-top: 4px solid #041545;
+    align-items: center;
 }
+
 li:hover{
     transition: 1.5s;
 }
@@ -195,7 +190,9 @@ li:hover .painel {
 .link-painel{
     display: flex;
     color: var(--color);
-    margin-bottom: 3px;
+    margin-bottom: 15px;
+    align-items: center;
+    text-align: center;
 }
 .container-cta{
     display: flex;

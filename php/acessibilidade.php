@@ -9,14 +9,14 @@
     <title>Acessibilidade</title>
 </head>
 <body>
+    
 <?php include '../html/navbar.html';?>
-<div class="container">
+<div class="container-acessibilidade" id="container-acessibilidades">
 ACESSIBILIDADE
 </div>
 <?php include '../html/buttonzap.html';?>
 <?php include '../html/rodape.html';?>
-
-<script src="../js/fontsize-nav.js"></script>
+<script src="../js/fontsize.js"></script>
 <script src="../js/index.js"></script>
 </body>
 </html>

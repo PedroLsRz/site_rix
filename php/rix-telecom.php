@@ -60,7 +60,7 @@
 </footer>
 
 <script src="../js/index.js"></script>
-<script src="../js/fontsize-nav.js"></script>
-<!-- <script src="../js/fontsize-rix-telecom.js"></script> -->
+
+<script src="../js/fontsize.js"></script>
 </body>
 </html>

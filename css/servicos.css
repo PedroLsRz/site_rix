@@ -86,16 +86,3 @@
   }
   
   /* END DARK MODE BUTTON */
-  
-  .container-acessibilidade{
-    display: flex;
-    width: 100%;
-    height: 350px;
-    font-size: 30pt;
-    align-items: center;
-    justify-content: center;
-    background-image: url(../img/acessibilidade.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-  }

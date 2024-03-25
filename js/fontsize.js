@@ -53,7 +53,7 @@ decrease.addEventListener('click', () => {
     // NAVBAR START
     principal.style.fontSize = (getfontsize(principal) - 1) + 'px';
     servicos.style.fontSize = (getfontsize(servicos) - 1) + 'px';
-    contatos.style.fontSize = (getfontsize(contatos) - 1) + 'px';
+    contatos.style.fontSize = (getfontsize(contatos) - 1) +  'px';
     sobre.style.fontSize = (getfontsize(sobre) - 1) + 'px';
     faq.style.fontSize = (getfontsize(faq) - 1) + 'px';
     h3.style.fontSize = (getfontsize(h3) - 1) + 'px';

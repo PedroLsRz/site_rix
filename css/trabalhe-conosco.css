@@ -90,7 +90,7 @@ body {
 
 .container-trabalho{
   background-image: url(../img/trabalhe-conosco.png);
-  background-color: #0a0a0abb;
+  background-color: #0a0a0afb;
   background-size: cover;
   height: 100vh;
 }
@@ -179,6 +179,7 @@ button{
   margin-bottom: 160px;
   margin-right: 38vw;
   color: #041545;
+  cursor: pointer;
   &:hover{
     background-color: #041545;
     transition: 0.43s;

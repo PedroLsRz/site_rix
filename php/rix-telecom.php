@@ -15,10 +15,10 @@
 
 
 <?php include '../html/buttonzap.html';?>
-<h1>SOBRE A EMPRESA</h1>
+
 <div class="container">
 
-    
+<div class="titulo"><h1>SOBRE A EMPRESA</h1></div>
     <div class="container-mid" id="mid-text">
    <p>A <strong>Rix</strong> ( RIX TELECOM LTDA ) CNPJ: 04.352.312/0001-15, é uma empresa do ramo de Telecomunicações,
     especialista em <br>Internet Fibra Óptica e Rádios Gigabit. 

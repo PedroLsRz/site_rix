@@ -127,7 +127,9 @@ header {
     display: flex;
     cursor: pointer;
     height: 10vh;
+    
 }
+
 
 .nav__links a,
 .cta,
@@ -170,14 +172,30 @@ header {
     margin-top: 80px;
     padding: 12px 16px;
     z-index: 1;
-    height: 15vh;
+    width: 10vw;
+    height: 20vh;
     justify-content: center;
     flex-direction: column;
     border-radius: 1px solid white;
     border-top: 4px solid #041545;
-    align-items: center;
+    
 }
-
+.painel-short{
+    display: none;
+    position: absolute;
+    min-width: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-top: 80px;
+    padding: 12px 16px;
+    z-index: 1;
+    width: 10vw;
+    height: 12vh;
+    
+    flex-direction: column;
+    border-radius: 1px solid white;
+    border-top: 4px solid #041545;
+   
+}
 li:hover{
     transition: 1.5s;
 }
@@ -186,6 +204,18 @@ li:hover .painel {
     transition: 1.3s;
     background-color: var(--body-bg);
 
+} 
+li:hover .painel-short{
+    display: flex;
+    transition: 1.3s;
+    background-color: var(--body-bg);
+}
+.link-painel-short{
+    display: flex;
+    color: var(--color);
+    margin-bottom: 15px;
+
+  
 }
 .link-painel{
     display: flex;

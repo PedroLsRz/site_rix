@@ -16,7 +16,7 @@
     <section class="container">
         <div class="slider-wrapper" id="slider-focus">
             <div class="slider">
-                <img id="slide-1" src="https://images.unsplash.com/photo-1656464868371-602be27fd4c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=80" alt="3D rendering of an imaginary orange planet in space" />
+                <img id="slide-1" src="../img/adinael-menor.jpeg" onclick="window.location.href='./rix-telecom.php'" alt="3D rendering of an imaginary orange planet in space" />
                 <img id="slide-2" src="https://images.unsplash.com/photo-1657586640569-4a3d4577328c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=80" alt="3D rendering of an imaginary green planet in space" />
                 <img id="slide-3" src="https://images.unsplash.com/photo-1656077217715-bdaeb06bd01f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=80" alt="3D rendering of an imaginary blue planet in space" />
             </div>
@@ -27,8 +27,54 @@
             </div>
         </div>
     </section>
+    
+    <div class="titulo-licitacao">
+    <div class="envelopador"><div>PARA LICITAÇÃO</div></div>
+    <h1>Nossos Serviços</h1>
+        <div class="descricao">Conheça nossos serviços (para licitações da prefeitura e do Estado)</div>  
+ 
+    </div> 
+    
+          
+    
+    <div class="container-servicos">
+        <ul class="ul_servicos">
+                    <div>Fibra Optica</div>
+                    <li class="li_servicos">
+                        <img class="wifi_icon" src="../img/wifi.png" /><a target='_blank' class="li_links"
+                        href="#">Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+                    </a></i>
+                    
+                    </li>
+                    <div>Link Dedicado</div>
+                    <li class="menu-item">
+                        <a target='_blank' href='#' class="li_links">WhatsApp</a>
+                    </li>
+                </ul>
+                
+                <ul class="ul_servicos">
+                <div>Ponto a Ponto</div>
+                    <li class="li_servicos">
+                        <a href="#" class="li_links">A Rix</a> 
+                    </li>
+                    <div>Link Temporário</div>
+                    <li class="li_servicos">
+                        <a href="#" class="li_links">A Rix</a>
+                    </li>
+                </ul>
+                <ul class="ul_servicos">
+                <div>Banda Larga</div>
+                    <li class="li_servicos">
+                        <a href="#" class="li_links">A Rix</a> 
+                    </li>
+                    <div>Radio Backup</div>
+                    <li class="li_servicos">
+                        <a href="#" class="li_links">A Rix</a>
+                    </li>
+                </ul>
+        </div>
     <?php include '../html/buttonzap.html';?>
-<nav class="nav-rodape">
+
 <div class="container-rodape">
     <div class="divisor">
         <img class="img-atendimento-left" src="../img/atendimento-left.png">  

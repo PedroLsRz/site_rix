@@ -18,7 +18,6 @@
   
   .infos{
     display: flex;
-    padding-left: 180px;
     width: 80%;
     align-items: center;
     justify-content: space-between;
@@ -57,7 +56,7 @@
   }
   .menu-link:hover{
     transition: 0.3s;
-    color: rgb(19, 50, 226);
+    color: red;
     margin-left: 4px;
   }
   .menu-branco{

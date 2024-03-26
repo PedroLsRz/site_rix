@@ -92,9 +92,6 @@ body {
 
   /* start carrossel */
 
-.container {
-	padding-top: 4rem;
-}
 .slider-wrapper {
 	position: relative;
 	max-width: 100%;
@@ -102,12 +99,11 @@ body {
 }
 .slider {
 	display: flex;
-	aspect-ratio: 16 / 6;
+	aspect-ratio: 16 / 7;
 	overflow-x: auto;
 	scroll-snap-type: x mandatory;
 	scroll-behavior: smooth;
 	box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
-  
 	-ms-overflow-style: none; /* Hide scrollbar IE and Edge */
 	scrollbar-width: none; /* Hide scrollbar Firefox */
 }
@@ -144,11 +140,11 @@ body {
 
 /* end carrossel */
 .titulo-licitacao{
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
   text-align: center;
-  flex-direction: column;
+ 
   padding-top: 80px;
   background-color: #041a5e;
   color: white;
@@ -174,54 +170,79 @@ h1{
 
 }
 .descricao{
-  margin-bottom: 70px;
+  margin-bottom: 100px;
   color: white;
   
 }
 
 .container-servicos{
-  display: flex;
-  padding-left: 180px;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 0.05fr 0.30fr 0.05fr 0.30fr 0.05fr 0.30fr;
+  grid-template-rows: 40px 130px 40px 230px;
   background-color: #041a5e;
+  padding-left: 10%;
+  
+  width: 90%;
 }
 
-.ul_servicos{
-  list-style-type: none;
-  width: 18%;
-  font-family: "Montserrat", sans-serif;
-  color: var(--color);
-  font-size: 18px;
+.h2-servico{
   color: white;
-}
-.ul_servicos > div{
+  font-weight: bolder;
   font-size: 18pt;
-  font-weight: bold;
-  margin-bottom: 10px;
-  color: white;
+}
+.fibra_icon{
+  height: 48px;
+  width: 48px;
+  
+}
+.joia_icon{
+  height: 48px;
+  width: 48px;
 }
 .wifi_icon{
-  color: white;
-  background-color: azure;
+  height: 48px;
+  width: 48px;
 }
-.li_servicos{
-  display: flex;
-  flex-direction: column;
-  width: 70%;
+.radio_icon{
+  height: 48px;
+  width: 48px;
 }
-
+.internet_icon{
+  height: 48px;
+  width: 48px;
+}
+.wifi_lateral_icon{
+  height: 40px;
+  width: 40px;
+}
 .li_links{
-  color: white;
+
+  color: rgb(230, 230, 230);
   text-decoration: none;
-  padding-bottom: 5px;
   transition: 0.5s;
-  margin-bottom: 70px;
+  font-weight: normal;
+  width: 60%;
 }
-.li_links:hover{
+/* .li_links:hover{
   transition: 0.3s;
   color: red;
   margin-left: 4px;
+} */
+.li_texts{
+  display: flex;
+  color: rgb(230, 230, 230);
+  text-decoration: none;
+  transition: 0.5s;
+  font-weight: normal;
+}
+.li_texts:hover{
+  transition: 0.3s;
+  color: red;
+  margin-left: 4px;
+}
+.margem-branca{
+  height: 20vh;
+  background-color: #041a5e;
 }
 /* START RODAPÉ*/
 .rodape{  

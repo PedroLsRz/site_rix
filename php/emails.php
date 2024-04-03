@@ -48,7 +48,7 @@
                                 <input type="email" class="inputs-navs" id="navinput2_2" name="email" placeholder="Digite o seu email" autocomplete=off value>
                                 <textarea type="message" name="message" cols="10" rows="5" class="input-area" id="textArea2" placeholder="Digite o motivo de sua mensagem" autocomplete=off value></textarea>
                                 <button type="submit" class="buttom-form" id="btn-financeiro">ENVIAR</button>
-                                <input type="hidden" name="accessKey" value="92a55254-fa3e-42bf-9bff-b3523b05a511">
+                                <input type="hidden" name="accessKey" value="3641a113-84a2-43c0-a63a-dbd6e027855e">
                                 <input type="hidden" name="redirectTo" value="http://localhost:3000/html/obrigado.html">
                             </div>  
                         </li>
@@ -64,7 +64,7 @@
                                 <input type="text" class="inputs-navs" id="navinput3_2" name="email" placeholder="Digite o seu email" autocomplete=off value>
                                 <textarea type="message" name="message" cols="10" rows="5" class="input-area" id="textArea3" placeholder="Digite o motivo de sua mensagem" autocomplete=off value></textarea>
                                 <button type="submit" class="buttom-form" id="btn-comercial">ENVIAR</button>
-                                <input type="hidden" name="accessKey" value="33810e40-8fdb-4544-ba8f-9bb7ed2f8ee8">
+                                <input type="hidden" name="accessKey" value="3641a113-84a2-43c0-a63a-dbd6e027855e">
                                 <input type="hidden" name="redirectTo" value="http://localhost:3000/html/obrigado.html">
                                 
                             </div>  

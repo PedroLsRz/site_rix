@@ -23,7 +23,8 @@
         Envie seus dados pelo formulário, aguardamos sua mensagem! 
     </div>
     <div class="container-trabalho-bottom">
-        <form action="https://formsubmit.co/opedrolucas.ti@gmail.com" method="POST" >
+        
+        <form action="../functions/download.php" method="POST" enctype="multipart/form-data">
             <div class="ul-form">
                 <li class="li-form">
                     <label for="name">NOME COMPLETO</label>
@@ -41,7 +42,8 @@
                     <input type="file" class="input-curriculo" id="file_path" name="file_path">
                 </li>
                 <li class="li-form">
-                    <button type="submit" class="buttom-form">ENVIAR</button>
+                    <button type="submit" class="buttom-form" name = "entrar">ENVIAR</button>
+
                     <input type="hidden" name="_captcha" value="false">
                 </li>
         </form>

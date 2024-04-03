@@ -23,22 +23,18 @@
         Envie seus dados pelo formulário, aguardamos sua mensagem! 
     </div>
     <div class="container-trabalho-bottom">
-    <form action="https://formsubmit.co/pedrodbr955@gmail.com" method="POST" enctype="multipart/form-data">
-        
+        <form action="https://formsubmit.co/opedrolucas.ti@gmail.com" method="POST" >
             <div class="ul-form">
                 <li class="li-form">
-                    
                     <label for="name">NOME COMPLETO</label>
-                    <input type="text" class="form-control" id="name" name="name" placeholder="Digite seu nome" value required>
+                    <input type="text" class="form-control" name="name" placeholder="Digite seu nome">
                 </li>
                 <div class="ul-form1">
                 <li class="li-form">
                     <label for="name">E-MAIL</label>
-                    <input type="email" class="form-control" id="name" name="name" placeholder="Digite seu Email" value required>
-                    
+                    <input type="email" class="form-control" name="email" placeholder="Digite seu Email">
                 </li>
             </div>
-                
             </div>
             <li class="li-form">
                     <label for="file_path">CURRÍCULO</label>
@@ -46,18 +42,16 @@
                 </li>
                 <li class="li-form">
                     <button type="submit" class="buttom-form">ENVIAR</button>
+                    <input type="hidden" name="_captcha" value="false">
                 </li>
-         
-    </form>
-
-
+        </form>
     </div>
 </div>
 
 <footer>
 <?php include '../html/rodape.html';?>
 </footer>
-<script src="../js/fontsize.js"></script>
+    <script src="../js/fontsize-nav.js"></script>
     <script src="../js/index.js"></script>
 </body>
 </html>

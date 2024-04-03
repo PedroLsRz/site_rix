@@ -18,50 +18,61 @@
 
 <div class="container-emails">
     <div class="titulo">CONTATE-NOS</div>
-    <div class="description">Nossos e-mails e seus respectivos setores</div>
-    <div class="container-links">
-        <form action="https://formsubmit.co/pedrodbr955@gmail.com" method="POST" enctype="multipart/form-data">
-            <div class="ul-form">
-                <li class="li-form">
-                    <label>SUPORTE | TECNICO</label>
-                        <div class="form-control" id="control-24h" style="height: 6vh; background-color: rgb(4, 21, 69); transition: all 0.3s ease 0s; display: flex">
-                        <div class="email-text-box" id="email-text-box-left">suporte24h@rix.com.br</div>
-                        <input type="text" class="inputs-navs" id="navinput1_1" name="name" placeholder="Digite seu nome completo" autocomplete="off">
-                        <input type="text" class="inputs-navs" id="navinput1_2" name="name" placeholder="Digite o seu email" autocomplete=off>
-                        <input type="text" class="inputs-navs" id="navinput1_3" name="name" placeholder="Digite o seu telefone" autocomplete=off>
-                        <textarea type="message" cols="10" rows="5" class="input-area" id="textArea1" placeholder="Comentarios" autocomplete=off></textarea>                       
-                        <button type="submit" class="buttom-form" id="btn-24h">ENVIAR</button>
-                    </div>
-                </li>
-            
+    <div class="description"><strong>Nossos e-mails e seus respectivos setores</strong></div>
+    <div class="description">Clique no email correspondente abaixo para enviar uma mensagem!</div>
+    <div class="container-box">
+        <div class="container-links">
+            <form action="https://api.staticforms.xyz/submit" method="POST">
                 <div class="ul-form">
                     <li class="li-form">
-                        <label for="name">FINANCEIRO</label>
-                        <div class="form-control" id="control-financeiro" style="height: 6vh; background-color: rgb(4, 21, 69); transition: all 0.3s ease 0s; display: flex">
-                            <div class="email-text-box" id="email-text-box-center">contato@rix.com.br</div>
-                            <input type="text" class="inputs-navs" id="navinput2_1" placeholder="Digite seu nome completo" autocomplete="off" value>
-                            <input type="text" class="inputs-navs" id="navinput2_2" name="name" placeholder="Digite o seu email" autocomplete=off value required>
-                            <input type="text" class="inputs-navs" id="navinput2_3" name="name" placeholder="Digite o seu telefone" autocomplete=off value required>
-                            <textarea type="message" cols="10" rows="5" class="input-area" id="textArea2" placeholder="Digite o motivo de sua mensagem" autocomplete=off value></textarea>
-                            <button type="submit" class="buttom-form" id="btn-financeiro">ENVIAR</button>
-                        </div>  
+                        <label>SUPORTE | TECNICO</label>
+                        <div class="form-control" id="control-24h" style="height: 6vh; background-color: rgb(4, 21, 69); transition: all 0.3s ease 0s; display: flex">
+                            <div class="email-text-box" id="email-text-box-left">suporte24h@rix.com.br</div>
+                            <input type="text" class="inputs-navs" id="navinput1_1" name="name" placeholder="Digite seu nome completo" autocomplete="off">
+                            <input type="text" class="inputs-navs" id="navinput1_2" name="email" placeholder="Digite o seu email" autocomplete=off>
+                            <textarea type="message" name="message" cols="10" rows="5" class="input-area" id="textArea1" placeholder="Comentarios" autocomplete=off></textarea>                       
+                            <button type="submit" class="buttom-form" id="btn-24h">ENVIAR</button>
+                            <input type="hidden" name="accessKey" value="3641a113-84a2-43c0-a63a-dbd6e027855e">
+                            <input type="hidden" name="redirectTo" value="http://localhost:3000/html/obrigado.html">
+                        </div>
                     </li>
                 </div>  
-                <div class="ul-form">
-                    <li class="li-form">
-                        <label for="name">COMERCIAL</label>
-                        <div class="form-control" id="control-comercial" style="height: 6vh; background-color: rgb(4, 21, 69); transition: all 0.3s ease 0s; display: flex">
-                            <div class="email-text-box" id="email-text-box-right">comercial@rix.com.br</div>
-                            <input type="text" class="inputs-navs" id="navinput3_1" placeholder="Digite seu nome completo" autocomplete=off value>
-                            <input type="text" class="inputs-navs" id="navinput3_2" name="name" placeholder="Digite o seu email" autocomplete=off value required>
-                            <input type="text" class="inputs-navs" id="navinput3_3" name="name" placeholder="Digite o seu telefone" autocomplete=off value required>
-                            <textarea type="message" cols="10" rows="5" class="input-area" id="textArea3" placeholder="Digite o motivo de sua mensagem" autocomplete=off value></textarea>
-                            <button type="submit" class="buttom-form" id="btn-comercial">ENVIAR</button>
-                        </div>  
-                    </li>
-                </div> 
-            </div>  
-        </form>
+            </form>
+            <form action="https://api.staticforms.xyz/submit" method="POST">
+                    <div class="ul-form">
+                        <li class="li-form">
+                            <label for="name">FINANCEIRO</label>
+                            <div class="form-control" id="control-financeiro" style="height: 6vh; background-color: rgb(4, 21, 69); transition: all 0.3s ease 0s; display: flex">
+                                <div class="email-text-box" id="email-text-box-center">contato@rix.com.br</div>
+                                <input type="text" class="inputs-navs" id="navinput2_1" name="name" placeholder="Digite seu nome completo" autocomplete="off" value>
+                                <input type="email" class="inputs-navs" id="navinput2_2" name="email" placeholder="Digite o seu email" autocomplete=off value>
+                                <textarea type="message" name="message" cols="10" rows="5" class="input-area" id="textArea2" placeholder="Digite o motivo de sua mensagem" autocomplete=off value></textarea>
+                                <button type="submit" class="buttom-form" id="btn-financeiro">ENVIAR</button>
+                                <input type="hidden" name="accessKey" value="92a55254-fa3e-42bf-9bff-b3523b05a511">
+                                <input type="hidden" name="redirectTo" value="http://localhost:3000/html/obrigado.html">
+                            </div>  
+                        </li>
+                    </div>  
+            </form>
+            <form action="https://api.staticforms.xyz/submit" method="POST">
+                    <div class="ul-form">
+                        <li class="li-form">
+                            <label for="name">COMERCIAL</label>
+                            <div class="form-control" id="control-comercial" style="height: 6vh; background-color: rgb(4, 21, 69); transition: all 0.3s ease 0s; display: flex">
+                                <div class="email-text-box" id="email-text-box-right">comercial@rix.com.br</div>
+                                <input type="text" class="inputs-navs" id="navinput3_1" name="name" placeholder="Digite seu nome completo" autocomplete=off value>
+                                <input type="text" class="inputs-navs" id="navinput3_2" name="email" placeholder="Digite o seu email" autocomplete=off value>
+                                <textarea type="message" name="message" cols="10" rows="5" class="input-area" id="textArea3" placeholder="Digite o motivo de sua mensagem" autocomplete=off value></textarea>
+                                <button type="submit" class="buttom-form" id="btn-comercial">ENVIAR</button>
+                                <input type="hidden" name="accessKey" value="33810e40-8fdb-4544-ba8f-9bb7ed2f8ee8">
+                                <input type="hidden" name="redirectTo" value="http://localhost:3000/html/obrigado.html">
+                                
+                            </div>  
+                        </li>
+                    </div> 
+                </div>  
+            </form>
+        </div>
     </div>
 </div>
 

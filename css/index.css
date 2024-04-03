@@ -178,7 +178,7 @@ h1{
 .container-servicos{
   display: grid;
   grid-template-columns: 0.05fr 0.30fr 0.05fr 0.30fr 0.05fr 0.30fr;
-  grid-template-rows: 40px 130px 40px 230px;
+  grid-template-rows: 40px 130px 40px 250px;
   background-color: #041a5e;
   padding-left: 10%;
   
@@ -354,92 +354,4 @@ h1{
   right: 0; 
 }
 
-  /* END ATENDIMENTOS*/
 
-.infos{
-  display: flex;
-  padding-left: 180px;
-  width: 80%;
-  align-items: center;
-}
-.logo-rix{
-  display: flex;
-  height: 25vh;
-  margin-left: 18px;
-  justify-content: center;
-  align-items: center;
-}
-.menu-textos{
-  list-style-type: none;
-  width: 25%;
-  font-family: "Montserrat", sans-serif;
-  color: var(--color);
-}
-.menu-titulo{
-  display: flex;
-  font-size: 18pt; 
-  text-decoration: none;
-  padding-bottom: 25px;
-  font-weight: bolder;
-  font-family: "Montserrat", sans-serif;
-  color: var(--color);
-}
-.menu-item{
-  display: flex;
-  flex-direction: column;
-}
-li{
-  font-size: 12pt;
-  
-}
-.menu-link{
-
-  text-decoration: none;
-  color: black;
-  padding-bottom: 5px;
-  color: var(--color);
-  transition: 0.3s;
-
-  &:hover{
-    transition: 0.3ss;
-    color: rgb(19, 50, 226);
-    margin-left: 4px;
-  }
-}
-
-.menu-branco{
-  color: transparent;
-  padding-bottom: 5px;
-}
-.container-logo{
-  margin-top: 50px;
-  display: flex;
-  justify-content: center;
-  padding-bottom: 5px;
-}
-.endereco{
-  display: flex;
-  justify-content: center;
-  padding-bottom: 50px;
-  font-size: 12pt;
-  color: var(--color);
-}
-.pin{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 3vh;
-}
-.tarja{
-  display: flex;
-  background-color: black;
-  color: white;   
-  justify-content: center;
-  margin-top: 30px;
-  height: 7vh;
-  align-items: center;
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-}
-
-/* END RODAPÉ*/

@@ -14,6 +14,31 @@
 <div class="container-acessibilidade" id="container-acessibilidades">
 ACESSIBILIDADE
 </div>
+<div class="container-mid">
+    <div class="container-mid-text">
+        <div class="title-mid-text">ACESSIBILIDADE</div>
+        <div class="mid-text">
+        Disponibilizamos algumas opções de acessibilidade para que o nosso site se torne um pouco mais
+        confortável para você! Veja abaixo as opções que mais se encaixam no seu perfil de uso para que sua experiência se torne
+        ainda melhor:
+        <p></p>
+        <strong>Você sempre encontrará no topo do site as seguinte opções:</strong>
+        <p></p>
+        <div class="menu"></div>
+        Cada palavra o encaminhará para a parte especificada do site
+        <p></p>
+        <div class="acessivel"></div>
+        Acessar a página de acessibilidade
+        <p></p>
+        <div class="letra"></div>
+        Aumentar ou diminuir o tamanho do texto
+        <p></p>
+        <div class="botao"></div>
+        Botão de modo escuro
+        </div>
+    </div>
+    
+</div>
 <?php include '../html/buttonzap.html';?>
 <?php include '../html/rodape.html';?>
 <script src="../js/fontsize.js"></script>

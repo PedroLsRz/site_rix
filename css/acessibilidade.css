@@ -90,7 +90,7 @@
   .container-acessibilidade{
     display: flex;
     width: 100%;
-    height: 350px;
+    height: 45vh;
     font-size: 30pt;
     align-items: center;
     justify-content: center;
@@ -98,4 +98,68 @@
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+  }
+  .container-mid{
+    display: flex;
+    height: 110vh;
+    flex-direction: column;
+  }
+  .container-mid-text{
+    align-items:center;
+    display: flex;
+    width: 100%;
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .title-mid-text{
+    display: flex;
+    color: #041545;
+    border-bottom: 3px solid red;
+    font-weight: 100;
+    font-size: 18pt;
+    margin-top: 150px;
+    margin-bottom: 50px;
+  }
+  .mid-text{
+    display: flex;
+    color: #041545;
+    width: 50%;
+    font-size: 14pt;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .mid-text > li{
+    margin-bottom: 15px;
+    font-size: 14pt;
+  }
+  strong{
+    color: red;
+  
+  }
+  .menu{
+    width: 13vw;
+    height: 4vh;
+    background-image: url(../img/menu.jpeg);
+    margin-bottom: 5px;
+  }
+  .letra{
+    width: 7vw;
+    height: 4vh;
+    background-image: url(../img/letras.jpeg);
+    margin-bottom: 5px;
+  }
+  .botao{
+    width: 3vw;
+    height: 4vh;
+    background-image: url(../img/darkbutton.jpeg);
+    margin-bottom: 5px;
+  }
+  .acessivel{
+    width: 5.5vw;
+    height: 4vh;
+    background-image: url(../img/acessivel.jpeg);
+    margin-bottom: 5px;
   }

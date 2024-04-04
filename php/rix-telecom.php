@@ -50,8 +50,6 @@
     <p></p>
     Atuamos em todo o estado da Paraíba, porém, nos concentramos nas cidades de Campina Grande e João Pessoa.
     <p>&nbsp;</p>
-    <strong>VALORES</strong>
-    <p>&nbsp;</p>
     </div>
 </div>
 

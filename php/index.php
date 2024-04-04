@@ -42,14 +42,14 @@
         <div class="h2-servico">Suporte em Redes</div>
         <div>&nbsp;</div>
         <div class ="li_links">
-            <a class="li_texts" href="#">
+            <a class="li_texts" href="../services/fibra-optica.php">
                 Atuamos com instalação, conectorização e fusão de fibra utilizando as 
                 mais modernas tecnologias disponiveis no mercado.
             </a>
         </div>
         <div>&nbsp;</div>
         <div class ="li_links">
-            <a class="li_texts" href="#">
+            <a class="li_texts" href="../services/link-dedicado.php">
                 Alto nível de perfomance
                 e de disponibilidade para
                 seu uso ininterrupível.
@@ -57,7 +57,7 @@
         </div>
         <div>&nbsp;</div>
         <div class ="li_links">
-            <a class="li_texts" href="#">
+            <a class="li_texts" href="../services/suporte.php">
                 Consultoria e suporte avançado
                 <br>
                 para seu  provedor, empresa ou projeto.
@@ -71,14 +71,14 @@
         <div class="h2-servico">Link Temporário</div>
         <div>&nbsp;</div>
         <div class="li_links">
-            <a class ="li_texts" href="#">
+            <a class ="li_texts" href="../services/banda-larga.php">
                 O serviço ideal para licitações
                 de grande volume.
             </a>
         </div>
         <div>&nbsp;</div>
         <div class="li_links">
-            <a class ="li_texts" href="#">
+            <a class ="li_texts" href="../services/radio-backup.php">
                 Backups de até 200Mbps para
                 assegurar sua conexão independente
                 de quaisquer problemas!
@@ -86,7 +86,7 @@
         </div>
         <div>&nbsp;</div>
         <div class="li_links">
-            <a class ="li_texts" href="#">
+            <a class ="li_texts" href="../services/link-temporario.php">
                 A solução perfeita para
                 eventos, onde nós tratamos
                 a integridade da sua rede durante o

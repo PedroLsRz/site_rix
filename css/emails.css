@@ -103,8 +103,8 @@ form{
   justify-content: center;
   height: 20vh;
   align-items: center;
-  font-size: 20pt;
-  font-weight: 600;
+  font-weight: 100;
+  font-size: 24pt;
   
   color: #ffffff;
 }

@@ -23,10 +23,39 @@
         <div class="title-mid-text">PARA LICITAÇÃO</div>
     </div>
     <div class="mid-text">
-        A
+        Nova conexão, nova rota. Uma forma de manter a conexão operando.
         <p></p>
-        A
-    </div>
+        <p></p>
+        Quando trabalhamos com serviços que não podem parar, ficamos aflitos quando o acesso à internet cai,
+        a aflição é maior quando ocorre um rompimento de fibra. Sabemos que quando ocorre um rompimento de fibra,
+        não há outra opção além de esperar, nesses casos o link de rádio trás uma grande vantagem para o uso da internet.
+        <p></p>
+        A Rix trabalha com links de rádio para fazer um backup (redundância) na sua rede, ou seja, se a fibra é rompida,
+        o rádio assume a função de disponibilizar a internet, sendo essa então, a solução ideal, pois não há contato físico no 
+        caminho de um rádio para outro, o que reduz as chances de queda da rede drásticamente.
+        <p></p>
+        Favorecendo ainda mais o serviço, os links de rádio da Rix atendem com velocidades de até 200Mbps, assegurando
+        uma conexão estável nos momentos de pressão.
+        <p></p>
+        <div class="anti-column">Para verificar se o link de backup pode ser instalado onde você atua,
+        contate-nos através de nossos &nbsp;<a class="link-text" href="../php/emails.php"> emails</a>.</div>
+        <p></p>
+        <strong>Pacote do serviço</strong>
+        
+        <li>
+            Velocidade de até 200Mbps;
+        </li>
+        <li>
+            Monitoramento 24 horas;
+        </li>
+        <li>
+            Cabeamento estruturado;
+        </li>
+        <p></p>
+        Quando instalado o LINK de internet via rádio, não será necessário instalar um novo roteador. 
+        A Rix usa o mesmo roteador para fazer o gerenciamento dos dois links da rede, aumentando a praticidade
+        e o conforto para seu uso e ambientação da sala onde se encontra seu LINK.
+        </div>
 </div>
 <?php include '../html/buttonzap.html';?>
 <?php include '../html/rodape.html';?>

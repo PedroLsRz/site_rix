@@ -16,9 +16,9 @@
     <section class="container">
         <div class="slider-wrapper" id="slider-focus">
             <div class="slider">
-                <img id="slide-1" src="../img/acessibilidade.jpg" onclick="window.location.href='./rix-telecom.php'" alt="3D rendering of an imaginary orange planet in space" />
-                <img id="slide-2" src="https://images.unsplash.com/photo-1657586640569-4a3d4577328c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=80" alt="3D rendering of an imaginary green planet in space" />
-                <img id="slide-3" src="../img/empresa-slider.png" />
+                <img id="slide-1" src="../img/acessibilidade.jpg" onclick="window.location.href='./acessibilidade.php'" alt="3D rendering of an imaginary orange planet in space" />
+                <img id="slide-2" src="../img/foto-emails.jpeg" onclick="window.location.href='./emails.php'" />
+                <img id="slide-3" src="../img/empresa-slider.png" onclick="window.location.href='./rix-telecom.php'"/>
             </div>
             <div class="slider-nav">
                 <a href="#slide-1"></a>
@@ -38,8 +38,8 @@
         <div class="h2-servico">Fibra Optica</div>
         <img class="joia_icon" src="../img/joia.png" />
         <div class="h2-servico" >Link Dedicado</div>
-        <img class="internet_icon" src="../img/internet.png"/>
-        <div class="h2-servico">Suporte em Redes</div>
+        <img class="internet_icon_border" src="../img/internet.png"/>
+        <div class="h2-servico-border">Suporte em Redes</div>
         <div>&nbsp;</div>
         <div class ="li_links">
             <a class="li_texts" href="../services/fibra-optica.php">
@@ -52,12 +52,12 @@
             <a class="li_texts" href="../services/link-dedicado.php">
                 Alto nível de perfomance
                 e de disponibilidade para
-                seu uso ininterrupível.
+                seu uso ininterruptível.
             </a>
         </div>
-        <div>&nbsp;</div>
-        <div class ="li_links">
-            <a class="li_texts" href="../services/suporte.php">
+        <div class="espaço">&nbsp;</div>
+        <div class ="li_links-border">
+            <a class="li_texts-border" href="../services/suporte.php">
                 Consultoria e suporte avançado
                 <br>
                 para seu  provedor, empresa ou projeto.
@@ -67,8 +67,8 @@
         <div class="h2-servico">Banda Larga</div>
         <img class="radio_icon" src="../img/radio.png"/>
         <div class="h2-servico">Radio Backup</div>
-        <img class="wifi_lateral_icon" src="../img/wifi_lateral.png"/>
-        <div class="h2-servico">Link Temporário</div>
+        <img class="wifi_lateral_icon_border" src="../img/wifi_lateral.png"/>
+        <div class="h2-servico-border">Link Temporário</div>
         <div>&nbsp;</div>
         <div class="li_links">
             <a class ="li_texts" href="../services/banda-larga.php">
@@ -84,15 +84,39 @@
                 de quaisquer problemas!
             </a>
         </div>
-        <div>&nbsp;</div>
-        <div class="li_links">
-            <a class ="li_texts" href="../services/link-temporario.php">
+        <div class="espaço">&nbsp;</div>
+        <div class="li_links-border">
+            <a class ="li_texts-border" href="../services/link-temporario.php">
                 A solução perfeita para
                 eventos, onde nós tratamos
                 a integridade da sua rede durante o
                 decorrer do mesmo.
             </a>
-        </div>      
+        </div>
+        <!-- PARA MOBILE -->
+        <img class="wifi_lateral_icon_under" src="../img/wifi_lateral.png"/>
+        <div class="h2-servico-under">Link Temporário</div> 
+        <img class="internet_icon_under" src="../img/internet.png"/>
+        <div class="h2-servico-under">Suporte em Redes</div>
+        <div>&nbsp;</div>
+        <div class="li_links_under">
+            <a class ="li_texts_under" href="../services/link-temporario.php">
+                A solução perfeita para
+                eventos, onde nós tratamos
+                a integridade da sua rede durante o
+                decorrer do mesmo.
+            </a>
+        </div>
+        <div>&nbsp;</div>
+        <div class ="li_links_under">
+            <a class="li_texts_under" href="../services/suporte.php">
+                Consultoria e suporte avançado
+                <br>
+                para seu  provedor, empresa ou projeto.
+            </a>
+        </div>
+        <div>&nbsp;</div>
+        <!-- PARA MOBILE -->
     </div>
 <!-- Atendimentos -->
     <div class="container-rodape">

@@ -19,14 +19,7 @@
             <a class="link-service" href="../services/suporte.php">SUPORTE EM REDES</a>
         </div>
     </div>
-    <div class="container-mid-text">
-        <div class="title-mid-text">PARA LICITAÇÃO</div>
-    </div>
-    <div class="mid-text">
-        A
-        <p></p>
-        A
-    </div>
+    
 </div>
 <?php include '../html/buttonzap.html';?>
 <?php include '../html/rodape.html';?>

@@ -157,6 +157,14 @@
     flex-direction: column;
     
   }
+  .anti-column{
+    display: flex;
+    font-size: 14pt;
+  }
+  .link-text{
+    display: flex;
+    color: red;
+  }
   .mid-text > li{
     margin-bottom: 15px;
     font-size: 14pt;

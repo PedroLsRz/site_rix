@@ -189,3 +189,29 @@ button{
     width: 15.5vw;
   }
 }
+@media screen and (max-width: 1140px){
+  .container{
+   height: 1300px;
+  }
+  .ul-form{
+    flex-direction: column;
+  }
+  .form-control{
+    width: 40vw;
+  }
+  .input-curriculo{
+    width: 100%;
+    margin-right: 0;
+  }
+  button{
+    width: 25vw;
+    margin-right: 0;
+    &:hover{
+      background-color: #041545;
+      transition: 0.43s;
+      color: white;
+      height: 6.5vh;
+      width: 25.5vw;
+    }
+  }
+ }

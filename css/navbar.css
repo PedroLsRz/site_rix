@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
 
+
 .container-navs{
     display: flex;
     height: 4vh;
@@ -11,6 +12,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif ;
     text-align: center;
 }
+
 .nav-left{
     display: flex;
     height: 3vh;
@@ -245,3 +247,15 @@ li:hover .painel-short{
     font-weight: 100;
     color: var(--color);
 }
+/* @media screen and (max-width: 1140px){
+    header, .itens-mid
+    ,.link-size-short, .link-size-big, .nav-right, .link, .item-number
+    , .acessibilidade, .nav_mini_item_no_painel, .nav_mini_item
+    , .logo, .nav__links, .nav__links li, .nav__links li a
+    , .painel, .painel-short, .link-painel-short, .link-painel
+    , .container-cta
+    , .cta{
+        display: none;
+    }
+} */
+ 

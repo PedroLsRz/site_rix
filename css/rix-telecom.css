@@ -122,3 +122,9 @@ h1{
   text-align: start;
   
 }
+
+@media screen and (max-width: 1140px){
+ .container{
+  height: 1300px;
+ }
+}

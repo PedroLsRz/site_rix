@@ -7,7 +7,7 @@
     <link href="../css/emails.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-
+    <link rel="shortcut icon" href="../ico/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -17,7 +17,7 @@
 <?php include '../html/buttonzap.html';?>
 
 <div class="container-emails">
-    <div class="titulo">CONTATE-NOS</div>
+    <div class="titulo"><h1>CONTATE-NOS</h1></div>
     <div class="description"><strong>Nossos e-mails e seus respectivos setores</strong></div>
     <div class="description">Clique no email correspondente abaixo para enviar uma mensagem!</div>
     <div class="container-box">
@@ -33,7 +33,7 @@
                             <textarea type="message" name="message" cols="10" rows="5" class="input-area" id="textArea1" placeholder="Comentarios" autocomplete=off></textarea>                       
                             <button type="submit" class="buttom-form" id="btn-24h">ENVIAR</button>
                             <input type="hidden" name="accessKey" value="3641a113-84a2-43c0-a63a-dbd6e027855e">
-                            <input type="hidden" name="redirectTo" value="http://localhost:3000/html/obrigado.html">
+                            <input type="hidden" name="redirectTo" value="http://131.72.176.95:8585/site_rix/html/obrigado.html">
                         </div>
                     </li>
                 </div>  
@@ -49,7 +49,7 @@
                                 <textarea type="message" name="message" cols="10" rows="5" class="input-area" id="textArea2" placeholder="Digite o motivo de sua mensagem" autocomplete=off value></textarea>
                                 <button type="submit" class="buttom-form" id="btn-financeiro">ENVIAR</button>
                                 <input type="hidden" name="accessKey" value="3641a113-84a2-43c0-a63a-dbd6e027855e">
-                                <input type="hidden" name="redirectTo" value="http://localhost:3000/html/obrigado.html">
+                                <input type="hidden" name="redirectTo" value="http://131.72.176.95:8585/site_rix/html/obrigado.html">
                             </div>  
                         </li>
                     </div>  
@@ -65,7 +65,7 @@
                                 <textarea type="message" name="message" cols="10" rows="5" class="input-area" id="textArea3" placeholder="Digite o motivo de sua mensagem" autocomplete=off value></textarea>
                                 <button type="submit" class="buttom-form" id="btn-comercial">ENVIAR</button>
                                 <input type="hidden" name="accessKey" value="3641a113-84a2-43c0-a63a-dbd6e027855e">
-                                <input type="hidden" name="redirectTo" value="http://localhost:3000/html/obrigado.html">
+                                <input type="hidden" name="redirectTo" value="http://131.72.176.95:8585/site_rix/html/obrigado.html">
                                 
                             </div>  
                         </li>

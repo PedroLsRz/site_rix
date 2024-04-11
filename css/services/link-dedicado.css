@@ -86,50 +86,84 @@
   }
   
   /* END DARK MODE BUTTON */
-  
-  .container-acessibilidade{
+
+  .container{
     display: flex;
-    width: 100%;
-    height: 45vh;
-    font-size: 30pt;
     align-items: center;
-    justify-content: center;
-    background-image: url(../img/acessibilidade.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
-    color: white;
-  }
-  .container-mid{
-    display: flex;
-    height: 110vh;
+    height: 150vh;
     flex-direction: column;
-    background-color: #f0f0f0;
+    background-color: #041545;
+  }
+  .column{
+    display: flex;
+    justify-content: center;
+    height: 25vh;
+    align-items: center;
+    color: #ffffff;
+   background-color: #002792;
+   width: 100%;
+   flex-direction: column;
+  }
+  .title{
+    font-size: 34pt;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif ;
+    margin-bottom: 10px;
+  }
+  .row{
+    display: flex;
+    height: 3vh;
+    width: 80%;
+    justify-content: center;
+  }
+  
+  .space{
+    display: flex;
+    width: 5%;
+    justify-content: center;
+    font-size: 14pt;
+  }
+  .link-service{
+    display: flex;
+    font-size: 14pt;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif ;
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
   }
   .container-mid-text{
-    align-items:center;
+    align-items:end;
     display: flex;
-    width: 100%;
+    width: 30%;
+    height: 20vh;
+    margin-bottom: 40px;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
   }
   .title-mid-text{
     display: flex;
-    color: #041545;
+    color: white;
     border-bottom: 3px solid red;
     font-weight: 100;
-    font-size: 18pt;
-    margin-top: 150px;
-    margin-bottom: 50px;
+    font-size: 14pt;
+  
   }
   .mid-text{
     display: flex;
-    color: #041545;
-    width: 50%;
+    color: white;
+    width: 75%;
     font-size: 14pt;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    
+  }
+  .anti-column{
+    display: flex;
+    font-size: 14pt;
+  }
+  .link-text{
+    display: flex;
+    color: red;
   }
   .mid-text > li{
     margin-bottom: 15px;
@@ -137,51 +171,21 @@
   }
   strong{
     color: red;
-  
-  }
-  .menu{
-    width: 13vw;
-    height: 4vh;
-    background-image: url(../img/menu.jpeg);
-    margin-bottom: 5px;
-  }
-  .letra{
-    width: 7vw;
-    height: 4vh;
-    background-image: url(../img/letras.jpeg);
-    margin-bottom: 5px;
-  }
-  .botao{
-    width: 3vw;
-    height: 4vh;
-    background-image: url(../img/darkbutton.jpeg);
-    margin-bottom: 5px;
-  }
-  .acessivel{
-    width: 5.5vw;
-    height: 4vh;
-    background-image: url(../img/acessivel.jpeg);
-    margin-bottom: 5px;
+    margin-bottom: 20px;
   }
   @media screen and (max-width: 1140px){
-    .container-mid {
-      height: 150vh;
-      background-color: #f0f0f0;
+    .container-mid-text{
+      height: 0vh;
     }
-    .menu{
-      width: 50vw;
-      
+    .column{
+      height: 20vh;
     }
-    .letra{
-      width: 23vw;
-      
+    .title{
+      font-size: 24pt;
     }
-    .botao{
-      width: 13vw;
-      
+    .anti-column{
+      flex-direction: column;
+      margin-bottom: 20px;
     }
-    .acessivel{
-      width:  22vw;
-      
-    }
-   } 
+  }
+  

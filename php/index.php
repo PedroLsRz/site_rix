@@ -7,18 +7,17 @@
     <link href="../css/index.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="shortcut icon" href="../ico/favicon.ico" type="image/x-icon">
 </head>
-
 <body>
-<!-- NavBar -->
-<?php include '../html/navbar.html';?>
+<?php include '../html/navbar.html';?>      <!-- NavBar -->
 <!-- Imagens Rotativas -->
     <section class="container">
         <div class="slider-wrapper" id="slider-focus">
             <div class="slider">
                 <img id="slide-1" src="../img/acessibilidade.jpg" onclick="window.location.href='./acessibilidade.php'" alt="3D rendering of an imaginary orange planet in space" />
                 <img id="slide-2" src="../img/foto-emails.jpeg" onclick="window.location.href='./emails.php'" />
-                <img id="slide-3" src="../img/empresa-slider.png" onclick="window.location.href='./rix-telecom.php'"/>
+                <img id="slide-3" src="../img/business.png" onclick="window.location.href='./rix-telecom.php'"/>
             </div>
             <div class="slider-nav">
                 <a href="#slide-1"></a>
@@ -29,9 +28,13 @@
     </section>
     <!-- Menu de serviços -->
     <div class="titulo-licitacao" id="services-focus">
-        <div class="envelopador"><div>PARA LICITAÇÃO</div></div>
         <h1>Nossos Serviços</h1>
-        <div class="descricao">Conheça nossos serviços (para licitações da prefeitura e do Estado)</div>  
+        
+        <div class="alinhador">                                                         <!-- PARA MOBILE -->
+            <div class="text_top">Conheça nossos serviços;</div>                        <!-- PARA MOBILE --> 
+            <div class="text_bottom">(exclusivo para o governo e empresas)</div>        <!-- PARA MOBILE --> 
+        </div>
+        <div class="descricao">Conheça nossos serviços (exclusivo para o governo e empresas)</div>  
     </div>
     <div class="container-servicos">
         <img class="fibra_icon" src="../img/fibra-optica.png"/>
@@ -116,15 +119,21 @@
             </a>
         </div>
         <div>&nbsp;</div>
-        <!-- PARA MOBILE -->
+        <!-- PARA FIM MOBILE -->
     </div>
 <!-- Atendimentos -->
-    <div class="container-rodape">
+    <!-- <div class="container-rodape">
          <div class="divisor">
             <img class="img-atendimento-left" src="../img/atendimento-left.png">  
             <div class="clientes">
                 <a target='_blank' href="https://www.defensoria.pb.def.br/">
                     <img class="img-dp" src="../img/DP.png"> 
+                </a>
+                <a>
+                    <img class="img-gvt" src="../img/logo-GVT.png"> 
+                </a>
+                <a>
+                    <img class="img-gvt" src="../img/rio-tinto.png"> 
                 </a>
                 <a target='_blank' href="https://paraiba.pb.gov.br/diretas/saude/projeto-amar">
                     <img class="img-SES" src="../img/SES.png">
@@ -144,7 +153,7 @@
             </div>
             <img class="img-atendimento-right" src="../img/atendimento-right.png"> 
         </div>
-    </div>
+    </div> -->
 <!-- Botão do WhatsApp -->
     <?php include '../html/buttonzap.html';?>
 <!-- Rodapé -->

@@ -3,25 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../css/radio-backup.css" rel="stylesheet">
+    <link href="../css/services/radio-backup.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="shortcut icon" href="../ico/favicon.ico" type="image/x-icon">
     <title>Serviços</title>
 </head>
 <body>
 <?php include '../html/navbar.html';?>
-<div class="container">
-    <div class="column">
-        <div class="title">BACKUP VIA RADIO</div>
-        <div class="row">
+
+<div class="column">
+    <div class="title">BACKUP VIA RADIO</div>
+        <!-- <div class="row">
             <a class="link-service" href="../php/index.php">Principal</a>
             <div class="space">»</div>
             <a class="link-service" href="../services/radio-backup.php">RADIO BACKUP</a>
-        </div>
-    </div>
-    <div class="container-mid-text">
-        <div class="title-mid-text">PARA LICITAÇÃO</div>
-    </div>
+        </div> -->
+</div>
+<div class="container">
+    <div class="container-mid-text"></div>              <!-- DÁ UM PEQUENO ESPAÇAMENTO -->
     <div class="mid-text">
         Nova conexão, nova rota. Uma forma de manter a conexão operando.
         <p></p>
@@ -38,12 +38,14 @@
         uma conexão estável nos momentos de pressão.
         <p></p>
         <div class="anti-column">Para verificar se o link de backup pode ser instalado onde você atua,
-        contate-nos através de nossos &nbsp;<a class="link-text" href="../php/emails.php"> emails</a>.</div>
+        contate-nos através de nossos &nbsp;<a class="link-text" href="mailto:comercial@rix.com.br"> consulte-nos</a>.</div>
         <p></p>
-        <strong>Pacote do serviço</strong>
-        
+        <strong>Customizações possíveis</strong>
         <li>
             Velocidade de até 200Mbps;
+        </li>
+        <li>
+            Redundância automática no mesmo roteador;
         </li>
         <li>
             Monitoramento 24 horas;
@@ -55,7 +57,7 @@
         Quando instalado o LINK de internet via rádio, não será necessário instalar um novo roteador. 
         A Rix usa o mesmo roteador para fazer o gerenciamento dos dois links da rede, aumentando a praticidade
         e o conforto para seu uso e ambientação da sala onde se encontra seu LINK.
-        </div>
+    </div>
 </div>
 <?php include '../html/buttonzap.html';?>
 <?php include '../html/rodape.html';?>

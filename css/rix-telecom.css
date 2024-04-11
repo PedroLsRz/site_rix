@@ -92,9 +92,9 @@ body {
   display: flex;
   align-items: center;
   background-size: cover;
-  height: 1000px;
+  height: 1050px;
   flex-direction: column;
-  background-image: url(../img/adinael.jpeg);
+  background-image: url(../img/business.png);
   background-repeat: no-repeat;
 }
 .titulo{
@@ -106,7 +106,7 @@ body {
   margin: 0;
   background-size: cover;
   background-repeat: no-repeat;
- font-weight: 100;
+  font-weight: 100;
 }
 h1{
   font-size: 24pt;

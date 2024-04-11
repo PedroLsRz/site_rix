@@ -3,25 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../css/link-dedicado.css" rel="stylesheet">
+    <link href="../css/services/link-dedicado.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="shortcut icon" href="../ico/favicon.ico" type="image/x-icon">
     <title>Serviços</title>
 </head>
 <body>
 <?php include '../html/navbar.html';?>
-<div class="container">
-    <div class="column">
-        <div class="title">LINK DEDICADO</div>
-        <div class="row">
+
+<div class="column">
+    <div class="title">LINK DEDICADO</div>
+        <!-- <div class="row">
             <a class="link-service" href="../php/index.php">Principal</a>
             <div class="space">»</div>
             <a class="link-service" href="../services/link-dedicado.php">LINK DEDICADO</a>
-        </div>
-    </div>
-    <div class="container-mid-text">
-        <div class="title-mid-text">PARA LICITAÇÃO</div>
-    </div>
+        </div> -->
+</div>
+<div class="container">
+    <div class="container-mid-text"></div>              <!-- DÁ UM PEQUENO ESPAÇAMENTO -->
     <div class="mid-text">
         Alta velocidade, disponibilidade e atendimento prioritário.
         <p></p>
@@ -29,13 +29,17 @@
         A alta demanda em nossos serviços nos pede uma internet de alta performance, por isso, os LINKS dedicados
         de internet se tornaram muito populares entre o meio governamental e corporativo.
         <p></p>
-        A Rix trabalha com LINKS dedicados há mais de dez anos, servindo principalmente ao Estado da Paraíba.
+        Indicados para uso corporativo, são ideais para serviços que requeiram alta disponibilidade e 
+        garantia de banda o tempo todo. Estes links possuem SLAs maiores que podem ser ajustados de 
+        acordo com a necessidade do cliente.
+        <p></p>
+        A Rix trabalha com LINKS dedicados há quase 30 anos, servindo principalmente ao Estado da Paraíba.
         Atuando nas defensorias públicas do Estado da Paraíba.
         <p></p>
         Abaixo está um modelo de nosso serviço dedicado, porém, ele varia de contrato para contrato.
         
         <p></p>
-        <strong>Pacote padrão do serviço</strong>
+        <strong>Customizações possíveis</strong>
         
         <li>
             Velocidade a consultar;
@@ -44,7 +48,13 @@
             Monitoramento 24 horas;
         </li>
         <li>
+            Dupla abordagem;
+        </li>
+        <li>
             Fibra óptica;
+        </li>
+        <li>
+            Redundância de roteadores;
         </li>
         <li>
             Atendimento 24 horas;
@@ -53,12 +63,13 @@
             Radio de backup (redundância);
         </li>
         <li>
-            IP Público;
+             Range de IPs Públicos;
         </li>
         <p></p>
-        <div class="anti-column">O ideal é enviar a sua proposta para nós 
-        através de nossos &nbsp;<a class="link-text" href="../php/emails.php"> emails</a>.</div>
-    </div>
+        <div class="anti-column">O ideal é enviar a sua proposta para nós através de nossos e-mails:&nbspTemos a solução adequada para cada necessidade. Consulte nossos &nbsp;
+            <a class="link-text" href="mailto:comercial@rix.com.br"> consultores</a>&nbsp
+        </div>
+    </div> 
 </div>
 <?php include '../html/buttonzap.html';?>
 <?php include '../html/rodape.html';?>

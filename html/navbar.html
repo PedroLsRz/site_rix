@@ -43,20 +43,20 @@
 </div>
     <header id="cabecalho" style="height: 10vh;">
         <!-- CODIGO PARA MOBILE -->
-        <!-- <div class="menu-header">
-            <div class="icons">
-                <a class="logo-mobile" href="../php/index.php"><img src="../img/rix-logo-2.png" alt="logo"></a>
-                <img class="menu-painel" src="../img/menu-nav.png" alt="logo" id="menu-ativador">
-            </div>
-        </div> -->
+        <div class="divisor">
+            <a class="logo" href="../php/index.php">
+                <img src="../img/rix-logo-2.png" alt="logo">
+            </a>
+            <img class="menu-painel" src="../img/menu-nav.png" alt="logo" id="menu-ativador">
+        </div>
          <!-- FIM CODIGO PARA MOBILE -->
-        <a class="logo" href="../php/index.php"><img src="../img/rix-logo-2.png" alt="logo"></a>
-        
-        
+<a class="logo" href="../php/index.php"><img src="../img/rix-logo-2.png" alt="logo"></a>
+
         <nav class ="nav-menu" id="nav-bottom" >
             <ul class="nav__links">
-            <li>
-                    <a class="nav_mini_item_no_painel" href="../php/index.php">PRINCIPAL</a>
+                <li>
+                    
+                    <a class="nav_mini_item_no_painel" href="../php/index.php" id="item_principal">PRINCIPAL</a>
                 </li>
                 <li>
                     <div class="painel">
@@ -65,8 +65,9 @@
                         <a class="link-painel" href="../services/banda-larga.php">Banda Larga</a>
                         <a class="link-painel" href="../services/radio-backup.php">Radio Backup</a>
                         <a class="link-painel" href="../services/link-temporario.php">Link Temporário</a>
+                        <a class="link-painel" href="../services/suporte.php">Suporte em redes</a>
                     </div>
-                    <a class="nav_mini_item_no_painel">SERVIÇOS</a>
+                    <a class="nav_mini_item_no_painel" id="item_servicos">SERVIÇOS</a>
                 </li>
                 <li>
                     <div class="painel-short">
@@ -74,7 +75,7 @@
                         <a class="link-painel" href="../php/emails.php">E-mails</a>
                         <a class="link-painel">Fixo (83)3341-5770</a>
                     </div>
-                    <a class="nav_mini_item" href="#">CONTATOS</a>  
+                    <a class="nav_mini_item" href="#" id="item_contatos">CONTATOS</a>  
                 </li>
                 <li>
                     <div class="painel-short">
@@ -82,12 +83,12 @@
                         <a class="link-painel-short" href="../php/trabalhe-conosco.php">Trabalhe Conosco</a>
                         <a target='_blank' class="link-painel-short" href="https://www.google.com/search?q=teste+de+velocidade+de+internet&oq=test…de+internet&aqs=chrome..69i57j0l5j69i61l2.800j0j9&sourceid=chrome&ie=UTF-8">Teste de velocidade</a>
                     </div>
-                    <a class="nav_mini_item" href="../php/rix-telecom.php">SOBRE
+                    <a class="nav_mini_item" href="../php/rix-telecom.php" id="item_sobre">SOBRE
                         
                     </a>
                 </li>
                 <li>
-                <a class="nav_mini_item_no_painel" href="../php/faq.php">FAQ</a>
+                <a class="nav_mini_item_no_painel" href="../php/faq.php" id="item_faq">FAQ</a>
                 </li> 
             </ul>  
             
@@ -100,8 +101,9 @@
         </i> 
         <h3 class="fone-0800" id="0800">0800 732 0749</h3>
     </div>
-       
+    <img class="menu-painel" src="../img/menu-nav.png" alt="logo" id="menu-ativador">
     </header>
-    
+
+<script src="../js/navbar.js"></script>
 </body>
 </html>

@@ -170,6 +170,17 @@ h1{
   color: white;
 
 }
+.alinhador{
+  width: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.text_bottom{
+  margin-bottom: 50px;
+}
 .descricao{
   margin-bottom: 100px;
   color: white;
@@ -319,19 +330,22 @@ h1{
 
 .img-dp{
   display: flex;
-  justify-content: end;
   height: 12vh;
   width: 5vw;
-  flex-direction: column;
+
 }
 .img-dp:hover{
   cursor: pointer;
 }
+.img-gvt{
+  display: flex;
+  height: 8vh;
+  width: 5vw;
+
+}
 .img-procon{
   display: flex;
-  justify-content: end;
   height: 12vh;
-  flex-direction: column;
   width: 5vw;
 }
 .img-procon:hover{
@@ -339,7 +353,6 @@ h1{
 }
 .img-oi{
   display: flex;
-  justify-content: end;
   height: 8vh;
   margin-top: 12px;
   width: 4vw;
@@ -349,7 +362,6 @@ h1{
 }
 .img-conde{
   display: flex;
-  justify-content: end;
   height: 11vh;
   width: 5vw;
 }
@@ -358,7 +370,6 @@ h1{
 }
 .img-SES{
   display: flex;
-  justify-content: end;
   height: 12vh;
   width: 5vw;
 }
@@ -367,7 +378,6 @@ h1{
 }
 .img-TRE{
   display: flex;
-  justify-content: end;
   height: 12vh;
   width: 6vw;
 }
@@ -404,7 +414,7 @@ h1{
   text-decoration: none;
   transition: 0.5s;
   font-weight: normal;
-  width: 60%;
+  width: 80%;
 }
 
 .li_texts_under{
@@ -421,16 +431,17 @@ h1{
   margin-left: 4px;
 }
 
-/* @media screen and (max-width: 1140px){
+@media screen and (max-width: 1140px){
    .container-servicos{
     display: grid;
     grid-template-columns: 0.25fr 0.6fr 0.25fr 0.6fr;
-    grid-template-rows: 60px 210px 60px 210px 60px 210px;
+    grid-template-rows: 60px 210px 60px 210px 60px 250px;
     padding-left: 5%;
     width: 95%;
   } 
   
-   .container-rodape{
+   .container-rodape, .h2-servico-border, .espaço, .li_links-border, .li_texts-border, .internet_icon_border, 
+   .wifi_lateral_icon_border, .descricao{
     display: none;
    }
    .h2-servico{
@@ -438,45 +449,14 @@ h1{
     font-weight: bolder;
     font-size: 12pt;
   }
-  .h2-servico-border{
-    display: none;
-  }
-  .espaço{
-    display: none;
-  }
-  .li_links-border{
-    display: none;
-  }
-  .li_texts-border{
-    display: none;
-  }
-  .internet_icon_border{
-    display: none;
-  }
-  .wifi_lateral_icon_border{
-    display: none;
-  }
-  .h2-servico-under{
+
+  .h2-servico-under, .internet_icon_under, .wifi_lateral_icon_under, .li_links_under, .li_texts_under, 
+  .li_texts_under:hover, .alinhador{
     display: flex;
   }
-  .internet_icon_under{
-    display: flex;
-  }
-  .wifi_lateral_icon_under{
-    display: flex;
-  }
-  .li_links_under{
-    display: flex;
-  }
-  
-  .li_texts_under{
-    display: flex;
-  }
-  .li_texts_under:hover{
-    display: flex;
-    
-  }
+
   .margem-branca{
     height: 0vh;
   }
-} */
+
+}

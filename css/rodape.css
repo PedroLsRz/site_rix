@@ -105,8 +105,10 @@
     }
     .logo-rix{
       margin-left: 0px;
+      height: 30vh;
     }
     .menu-textos{
+      
       width: 80%;
     }
 }

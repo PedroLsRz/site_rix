@@ -19,7 +19,7 @@ let textRixTelecom = document.getElementById('mid-text');
 let h1RixTelecom = document.querySelector('h1');
 
 // RIX TELECOM END & ACESSIBILIDADE START
-let acessivel = document.getElementById('container-acessibilidades');
+let accessibility = document.getElementById('mid-texts');
 // ACESSIBILIDADE END
 
 // FUNÇÃO
@@ -45,7 +45,7 @@ increase.addEventListener('click', () => {
     textRixTelecom.style.fontSize = (getfontsize(textRixTelecom) + 1) + 'px';
     h1RixTelecom.style.fontSize = (getfontsize(h1RixTelecom) + 1) + 'px';
     // RIX TELECOM END & ACESSIBILIDADE START
-    acessivel.style.fontSize = (getfontsize(acessivel) + 1) + 'px';
+    accessibility.style.fontSize = (getfontsize(accessibility) + 1) + 'px';
 
 })
 
@@ -65,5 +65,5 @@ decrease.addEventListener('click', () => {
     textRixTelecom.style.fontSize = (getfontsize(textRixTelecom) - 1) + 'px';
     h1RixTelecom.style.fontSize = (getfontsize(h1RixTelecom) - 1) + 'px';
     // RIX TELECOM END & ACESSIBILIDADE START
-    acessivel.style.fontSize = (getfontsize(acessivel) - 1) + 'px';
+    accessibility.style.fontSize = (getfontsize(accessibility) - 1) + 'px';
 })

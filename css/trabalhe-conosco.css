@@ -94,16 +94,19 @@ body {
   background-size: cover;
   height: 100vh;
 }
-h1{
+.titulo{
   display: flex;
   justify-content: center;
-  height: 20vh;
-  align-items: center;
+  height: 22vh;
+  align-items: flex-end;
+}
+h1{
   font-weight: 100;
   font-size: 24pt;
   color: #ffffff;
   margin: 0;
-  
+  border-bottom: 6px solid rgb(163, 0, 14);
+  border-radius: 5px;
 }
 .container-trabalho-mid{
   display: flex;
@@ -113,6 +116,7 @@ h1{
   font-size: 13pt;
   text-align: center;
   color: #ffffff;
+  margin-top: 30px;
 }
 .container-trabalho-bottom{
   color: #ffffff;

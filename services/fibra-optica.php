@@ -3,25 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../css/fibra-optica.css" rel="stylesheet">
+    <link href="../css/services/fibra-optica.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="shortcut icon" href="../ico/favicon.ico" type="image/x-icon">
     <title>Serviços</title>
 </head>
 <body>
 <?php include '../html/navbar.html';?>
-<div class="container">
-    <div class="column">
-        <div class="title">FIBRA ÓPTICA</div>
-        <div class="row">
+
+<div class="column">
+    <div class="title">FIBRA ÓPTICA</div>
+        <!-- <div class="row">
             <a class="link-service" href="../php/index.php">Principal</a>
             <div class="space">»</div>
             <a class="link-service" href="../services/fibra-optica.php">FIBRA OPTICA</a>
-        </div>
-    </div>
-    <div class="container-mid-text">
-        <div class="title-mid-text">PARA LICITAÇÃO</div>
-    </div>
+        </div> -->
+</div>
+<div class="container">
+    <div class="container-mid-text"></div>              <!-- DÁ UM PEQUENO ESPAÇAMENTO -->
     <div class="mid-text">
         Uma ferramenta complexa e de alta velocidade de transmissão de dados.
         <p></p>

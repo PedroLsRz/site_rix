@@ -14,7 +14,7 @@
     <div class="column">
         <div class="title">LINK TEMPORARIO</div>
         <div class="row">
-            <a class="link-service" href="../php/index.php">Menu</a>
+            <a class="link-service" href="../php/index.php">Principal</a>
             <div class="space">»</div>
             <a class="link-service" href="../services/link-temporario.php">LINK TEMPORARIO</a>
         </div>

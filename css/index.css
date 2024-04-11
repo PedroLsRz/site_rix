@@ -421,7 +421,7 @@ h1{
   margin-left: 4px;
 }
 
-@media screen and (max-width: 1140px){
+/* @media screen and (max-width: 1140px){
    .container-servicos{
     display: grid;
     grid-template-columns: 0.25fr 0.6fr 0.25fr 0.6fr;
@@ -479,4 +479,4 @@ h1{
   .margem-branca{
     height: 0vh;
   }
-}
+} */

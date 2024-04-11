@@ -247,15 +247,11 @@ li:hover .painel-short{
     font-weight: 100;
     color: var(--color);
 }
-/* @media screen and (max-width: 1140px){
-    header, .itens-mid
-    ,.link-size-short, .link-size-big, .nav-right, .link, .item-number
-    , .acessibilidade, .nav_mini_item_no_painel, .nav_mini_item
-    , .logo, .nav__links, .nav__links li, .nav__links li a
-    , .painel, .painel-short, .link-painel-short, .link-painel
-    , .container-cta
-    , .cta{
+@media screen and (min-width: 140px){
+    .nav-left{
+
         display: none;
+
     }
-} */
+} 
  

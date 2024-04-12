@@ -163,6 +163,8 @@
     background-image: url(../img/acessivel.jpeg);
     margin-bottom: 5px;
   }
+/* SE A TELA TIVER ATÉ 1140PX DE LARGURA, A FUNÇÃO É ATIVADA */
+/* PARA MOBILE */
   @media screen and (max-width: 1140px){
     .container-mid {
       height: 150vh;

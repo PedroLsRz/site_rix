@@ -122,7 +122,8 @@ h1{
   text-align: start;
   
 }
-
+/* SE A TELA TIVER ATÉ 1140PX DE LARGURA, A FUNÇÃO É ATIVADA */
+/* PARA MOBILE */
 @media screen and (max-width: 1140px){
  .container{
   height:   1600px;

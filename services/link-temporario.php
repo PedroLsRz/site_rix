@@ -11,17 +11,14 @@
 </head>
 <body>
 <?php include '../html/navbar.html';?>
-
+                                <!-- TITULO DA PAGINA -->
 <div class="column">
     <div class="title">LINK TEMPORARIO</div>
-        <!-- <div class="row">
-            <a class="link-service" href="../php/index.php">Principal</a>
-            <div class="space">»</div>
-            <a class="link-service" href="../services/link-temporario.php">LINK TEMPORARIO</a>
-        </div> -->
+
 </div>
 <div class="container">
     <div class="container-mid-text"></div>              <!-- DÁ UM PEQUENO ESPAÇAMENTO -->
+                                    <!-- CORPO DA PAGINA -->
     <div class="mid-text">
         Uma solução para eventos com alto fluxo de usuários.
         <p></p>

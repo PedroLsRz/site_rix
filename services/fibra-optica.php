@@ -11,7 +11,7 @@
 </head>
 <body>
 <?php include '../html/navbar.html';?>
-
+                                <!-- TITULO DA PAGINA -->
 <div class="column">
     <div class="title">FIBRA ÓPTICA</div>
         <!-- <div class="row">
@@ -22,6 +22,7 @@
 </div>
 <div class="container">
     <div class="container-mid-text"></div>              <!-- DÁ UM PEQUENO ESPAÇAMENTO -->
+                                    <!-- CORPO DA PAGINA -->
     <div class="mid-text">
         Uma ferramenta complexa e de alta velocidade de transmissão de dados.
         <p></p>

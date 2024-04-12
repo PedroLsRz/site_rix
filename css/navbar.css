@@ -263,13 +263,14 @@ li:hover .painel-short{
     height: 60px;
     margin-left: 5%;
 }
-
+/* SE A TELA TIVER ATÉ 1140PX DE LARGURA, A FUNÇÃO É ATIVADA */
+/* PARA MOBILE */
 @media screen and (max-width: 1140px){
     .painel, .logo, .painel-short, li:hover .painel, li:hover .painel-short,
     .container-cta, .link, .nav-left{
         display: none;
     }
-    .painel, .painel-short{
+    .painel{
         display: none;
         height: 30vh;
         width: 91.5%;

@@ -160,7 +160,8 @@
     align-items: center;
     justify-content: center;
   }
-
+/* SE A TELA TIVER ATÉ 1140PX DE LARGURA, A FUNÇÃO É ATIVADA */
+/* PARA MOBILE */
   @media screen and (max-width: 1140px){
     .container-mid-text{
       height: 0vh;

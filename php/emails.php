@@ -22,6 +22,7 @@
     <div class="description">Clique no email correspondente abaixo para enviar uma mensagem!</div>
     <div class="container-box">
         <div class="container-links">
+                                <!-- FORMULÁRIO DE SUPORTE -->
             <form action="https://api.staticforms.xyz/submit" method="POST">
                 <div class="ul-form">
                     <li class="li-form">
@@ -38,6 +39,7 @@
                     </li>
                 </div>  
             </form>
+                             <!-- FORMULÁRIO DE FINANCEIRO -->
             <form action="https://api.staticforms.xyz/submit" method="POST">
                     <div class="ul-form">
                         <li class="li-form">
@@ -54,6 +56,7 @@
                         </li>
                     </div>  
             </form>
+                                         <!-- FORMULÁRIO DE FINANCEIRO -->
             <form action="https://api.staticforms.xyz/submit" method="POST">
                     <div class="ul-form">
                         <li class="li-form">

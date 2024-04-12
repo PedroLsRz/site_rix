@@ -403,12 +403,10 @@ h1{
   justify-content: center;
   align-items: center;
 }
-.l1{
+.l1, .l2{
   display: flex;
 }
-.l2{
-  display: flex;
-}
+
 .container-atendimentos{
   display: none;
   background-color: #041545;
@@ -470,7 +468,8 @@ h1{
   color: red;
   margin-left: 4px;
 }
-
+/* SE A TELA TIVER ATÉ 1140PX DE LARGURA, A FUNÇÃO É ATIVADA */
+/* PARA MOBILE */
 @media screen and (max-width: 1140px){
    .container-servicos{
     display: grid;
@@ -485,7 +484,7 @@ h1{
     display: none;
    }
    .h2-servico-under, .internet_icon_under, .wifi_lateral_icon_under, .li_links_under, .li_texts_under, 
-   .container-atendimentos,.logo-rix-atendimentos, .li_texts_under:hover, .alinhador{
+   .title-atendimentos, .container-atendimentos,.logo-rix-atendimentos, .li_texts_under:hover, .alinhador{
      display: flex;
    }
    .container-rodape{
@@ -495,9 +494,7 @@ h1{
    .column{
     justify-content: center;
    }
-   .title-atendimentos{
-    display: flex;
-   }
+
    .l1, .l2{
     display: block;
    }

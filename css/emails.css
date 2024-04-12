@@ -229,6 +229,8 @@ button{
     width: 15.5vw;
   }
 }
+/* SE A TELA TIVER ATÉ 1140PX DE LARGURA, A FUNÇÃO É ATIVADA */
+/* PARA MOBILE */
 @media screen and (max-width: 1140px){
   .container-emails{
     height: auto;
@@ -239,18 +241,13 @@ button{
     flex-direction: column;
 
   }
-  .ul-form{
+  .ul-form, .li-form{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
   }
-  .li-form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
+
   form{
     align-items: normal;
 

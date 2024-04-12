@@ -11,7 +11,7 @@
 </head>
 <body>
 <?php include '../html/navbar.html';?>
-
+                                <!-- TITULO DA PAGINA -->
 <div class="column">
     <div class="title">BACKUP VIA RADIO</div>
         <!-- <div class="row">
@@ -22,6 +22,7 @@
 </div>
 <div class="container">
     <div class="container-mid-text"></div>              <!-- DÁ UM PEQUENO ESPAÇAMENTO -->
+                                    <!-- CORPO DA PAGINA -->
     <div class="mid-text">
         Nova conexão, nova rota. Uma forma de manter a conexão operando.
         <p></p>
@@ -37,6 +38,7 @@
         Favorecendo ainda mais o serviço, os links de rádio da Rix atendem com velocidades de até 200Mbps, assegurando
         uma conexão estável nos momentos de pressão.
         <p></p>
+                                        <!-- AntiColum corrige a escrita em formato de coluna -->
         <div class="anti-column">Para verificar se o link de backup pode ser instalado onde você atua,
         contate-nos através de nossos &nbsp;<a class="link-text" href="mailto:comercial@rix.com.br"> consultores.</a></div>
         <p></p>

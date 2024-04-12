@@ -14,11 +14,7 @@
 
 <div class="column">
     <div class="title-top">PERGUNTAS FREQUENTES</div>
-        <!-- <div class="row">
-            <a class="link-service" href="../php/index.php">Principal</a>
-            <div class="space">»</div>
-            <a class="link-service" href="../services/suporte.php">SUPORTE EM REDES</a>
-        </div> -->
+
 </div>
 <div class="container">
     <div class="container-mid-text"></div>         
@@ -39,7 +35,7 @@
         <div class="container-title">
         <a class="title" id="proposta">Como faço para enviar uma proposta para a Rix??</a>
         <div class="container-text" id="r-proposta" style="display: none;">
-                <div class="text">Você pode entrar em contato conosco pelos nossos consultores.    
+                <div class="text">Você pode entrar em contato conosco através de nossos consultores nos nossos serviços de contato.    
                 </div>
             </div>
         </div>

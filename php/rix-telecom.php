@@ -17,22 +17,28 @@
 <div class="container">
     <div class="titulo"><h1>SOBRE A EMPRESA</h1></div>
         <div class="container-mid" id="mid-text">
-        <p>A <strong>Rix</strong> ( RIX TELECOM LTDA ) CNPJ: 04.352.312/0001-15, é uma empresa do ramo de Telecomunicações,
-        especialista em <br>Internet Fibra Óptica e Rádios Gigabit. 
-        Criada em dia 26 de março de 2001, na cidade de Campina Grande.</p>
+        <p>A <strong>Rix</strong> ( RIX TELECOM LTDA ) CNPJ: 04.352.312/0001-15,
+        é uma empresa do ramo de Telecomunicações, especialista em conectividade. 
+        Fundada por Valdemir Cesar da Silva, cientista da computação e especialista em redes de 
+        computadores, em março de 2001, na cidade de Campina Grande, tem sua origem em outra empresa 
+        fundada por ele em setembro de 1995. A Openline foi o primeiro provedor de Internet no Norte e 
+        Nordeste do Brasil, trazendo inovação e pioneirismo em vários ramos como com o primeiro jornal do 
+        N/NE com edições diárias na Internet (Jornal O Norte), primeira empresa de publicidade a ter site 
+        na Internet no N/Ne (Antares Publicidade), etc. Com a cisão da Openline em 2001, surgiu a RIX Internet 
+        na Cidade de Campina Grande e que hoje atende clientes em todo o Nordeste.</p>
         
-        Trabalhamos fornecendo serviços de internet para o Governo do Estado da Paraíba, com links de Fibra Óptica
-        de até 500Mbps e de Rádios Gigabit de até 200Mbps. Fornecemos todo o suporte para diversas necessidades do nosso
-        cliente, sendo elas: &nbsp;Eventos,&nbsp;links temporários,&nbsp;links de backup,&nbsp;redes internas,&nbsp;
-        instalação e configuração de computadores e impressoras,&nbsp;entre outros.
+        Focada em atender clientes governamentais e grandes empresas de telecomunicações, 
+        atua fortemente no Estado da Paraíba, onde teve sua origem, porém possui clientes 
+        em Pernambuco, Rio Grande do Norte e Ceará, com capacidade de atender em praticamente 
+        qualquer local do país.
         <p>&nbsp;</p>
         <i><strong>VISÃO</strong></i>
         <p></p>
-        Ser um provedor que busca a satisfação do cliente pela Estado da Paraíba.
+        Ser um provedor que atua buscando a satisfação do cliente.
         <p></p>
         <i><strong>MISSÃO</strong></i>
         <p></p>
-        Viabilizar conexões internet através de links de rádio e fibra óptica.
+        Proporcionar um atendimento de conectividade estável, confiável e seguro.
         <p>&nbsp;</p>
         <i><strong>NEGÓCIO</strong></i>
         <p></p>
@@ -44,7 +50,7 @@
         <p>&nbsp;</p>
         <i><strong>ATUAÇÃO</strong></i>
         <p></p>
-        Atuamos em todo o estado da Paraíba, porém, nos concentramos nas cidades de Campina Grande e João Pessoa.
+        Atuamos em todo o Nordeste, tendo presença acentuada no Estado da Paraíba
         <p>&nbsp;</p>
     </div>
 </div>

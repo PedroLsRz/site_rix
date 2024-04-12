@@ -229,3 +229,33 @@ button{
     width: 15.5vw;
   }
 }
+@media screen and (max-width: 1140px){
+  .container-emails{
+    height: auto;
+    padding-bottom: 50px;
+  }
+  .container-links{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .ul-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .li-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  form{
+    align-items: normal;
+
+  }
+  .form-control{
+    width: 90%;
+  }
+}

@@ -82,3 +82,18 @@ body{
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 } 
+@media screen and (max-width: 1140px){
+ 
+    .container, .top, .bottom{
+        width: 100%;
+    }
+    .button{
+        width: 16vw;
+        &:hover{
+            background-color: #082470;
+            color: white;
+            width: 16.5vw;
+            height: 8.5vh;
+            }
+    }
+}

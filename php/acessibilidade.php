@@ -26,7 +26,8 @@ ACESSIBILIDADE
         <strong>Você sempre encontrará no topo do site as seguinte opções:</strong>
         <p></p>
         <div class="menu"></div>
-        Cada palavra o encaminhará para a parte especificada do site
+        Cada palavra o encaminhará para a parte especificada do site <br>
+        <strong>Indisponível para mobile.</strong>
         <p></p>
         <div class="acessivel"></div>
         Acessar a página de acessibilidade

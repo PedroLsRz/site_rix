@@ -31,7 +31,9 @@
         <div class="container-title">
         <a class="title" id="central">Onde fica a Central da Rix Internet?</a>
            <div class="container-text" id="r-central" style="display: none;">
-                <div class="text">A Central da Rix Internet fica em João Pessoa.</div>
+                <div class="text">A Central da Rix Internet fica em João Pessoa.
+                    Localizada na Av. Francisco Lustosa Cabral, 481, Cristo, João Pessoa.
+                </div>
             </div>
         </div>
         <div class="container-title">

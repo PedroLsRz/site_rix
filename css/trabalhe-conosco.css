@@ -198,10 +198,26 @@ button{
    height: 1300px;
   }
   .ul-form{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .ul-form1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
   }
   .form-control{
-    width: 40vw;
+    width: 100%;
+  }
+  .li-form{
+    list-style-type: none;
+    display: flex;
+    width: 70%;
+ 
   }
   .input-curriculo{
     width: 100%;

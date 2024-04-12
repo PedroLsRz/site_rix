@@ -266,7 +266,7 @@ li:hover .painel-short{
 
 @media screen and (max-width: 1140px){
     .painel, .logo, .painel-short, li:hover .painel, li:hover .painel-short,
-    .container-cta{
+    .container-cta, .link, .nav-left{
         display: none;
     }
     .painel, .painel-short{
@@ -309,6 +309,7 @@ li:hover .painel-short{
         flex-direction: column;
     }
     .itens-mid{
+        margin-left: 25%;
         width: 25%;
     }
  

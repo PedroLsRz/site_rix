@@ -38,7 +38,7 @@
         uma conexão estável nos momentos de pressão.
         <p></p>
         <div class="anti-column">Para verificar se o link de backup pode ser instalado onde você atua,
-        contate-nos através de nossos &nbsp;<a class="link-text" href="mailto:comercial@rix.com.br"> consulte-nos</a>.</div>
+        contate-nos através de nossos &nbsp;<a class="link-text" href="mailto:comercial@rix.com.br"> consultores.</a></div>
         <p></p>
         <strong>Customizações possíveis</strong>
         <li>

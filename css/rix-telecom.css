@@ -125,6 +125,9 @@ h1{
 
 @media screen and (max-width: 1140px){
  .container{
-  height:   1800px;
+  height:   1600px;
+ }
+ .container-mid{
+  width: 90%;
  }
 }

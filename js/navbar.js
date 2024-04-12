@@ -17,32 +17,12 @@ var faqItem = document.getElementById("item_faq")
 ativadorItem.addEventListener("click", function() {
   
   if(headerItem.style.height === "10vh") {
-      headerItem.style.height = "520px"; 
+      headerItem.style.height = "750px"; 
       navBottom.style.display = "flex";
-      // navBottom.style.flexDirection = "column";
-      // principalItem.style.display = "flex";
-      // headerMobile.style.display = "flex";
-      // headerMobile.style.height = "6vh";
-      // principalItem.style.height = "6vh"; 
-      // servicosItem.style.display = "flex";
-      // servicosItem.style.height = "6vh"; 
-      // contatosItem.style.display = "flex"; 
-      // sobreItem.style.display = "flex"; 
-      // faqItem.style.display = "flex"; 
-
-
-  }else if(headerItem.style.height === "520px") {
+  }
+  else if(headerItem.style.height === "750px") {
       headerItem.style.height = "10vh"; 
-      navBottom.style.display = "none";
-      // headerMobile.style.display = "none";
-      // principalItem.style.display = "none"; 
-      // servicosItem.style.display = "none"; 
-      // contatosItem.style.display = "none"; 
-      // sobreItem.style.display = "none"; 
-      // faqItem.style.display = "none"; 
-      // numberItem.style.display = "none"; 
-      // iconItem.style.display = "none";
-      
+      navBottom.style.display = "none";    
   }
   headerItem.style.transition = "0.3s";
   navBottom.style.transition = "0.3s";
@@ -59,18 +39,20 @@ var ativadorServico = document.getElementById("item_servicos")
 
 ativadorServico.addEventListener("click", function() {
   
-  if(painel.style.display === "none") {
+  if(painel.style.display === "flex") {
+    painel.style.display = "none";
+    contatosItem.style.display = "flex";
+    sobreItem.style.display = "flex"; 
+    faqItem.style.display = "flex";
+
+  }else{
+    painelShort.style.display = "none";
+    painelShortSobre.style.display = "none";
     painel.style.display = "flex"; 
     ativadorServico.style.height = "220px";
     contatosItem.style.display = "none";
     sobreItem.style.display = "none"; 
     faqItem.style.display = "none"; 
-
-  }else{
-    painel.style.display = "none";
-    contatosItem.style.display = "flex";
-    sobreItem.style.display = "flex"; 
-    faqItem.style.display = "flex";
   }
 
 });
@@ -84,15 +66,38 @@ var ativadorContato = document.getElementById("item_contatos")
 
 ativadorContato.addEventListener("click", function() {
   
-  if(painelShort.style.display === "none") {
-    painelShort.style.display = "flex"; 
-    sobreItem.style.display = "none"; 
-    faqItem.style.display = "none"; 
-
-  }else{
+  if(painelShort.style.display === "flex") {
     painelShort.style.display = "none";
     sobreItem.style.display = "flex"; 
     faqItem.style.display = "flex";
+
+  }else{
+   
+    painelShort.style.display = "flex"; 
+    painelShortSobre.style.display = "none";
+    sobreItem.style.display = "none"; 
+    faqItem.style.display = "none"; 
+  }
+
+});
+
+//    VARIÁVEL DE ABERTURA DO PAINEL DE SOBRE
+
+var painelShortSobre = document.getElementById("painel-short-sobre")
+var ativadorSobre = document.getElementById("item_sobre")
+
+//    FUNÇÃO DE ABERTURA DO PAINEL DE SBORE
+
+ativadorSobre.addEventListener("click", function() {
+  
+  if(painelShortSobre.style.display === "flex") {
+    painelShortSobre.style.display = "none";
+    faqItem.style.display = "flex";
+
+  }else{
+
+    painelShortSobre.style.display = "flex"; 
+    faqItem.style.display = "none"; 
   }
 
 });

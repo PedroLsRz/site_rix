@@ -315,10 +315,11 @@ h1{
   align-items: center;
  
 }
+
 .img-atendimento-left{
   display: flex;
   margin: 0;
-  height: 15vh;
+  height: 20vh;
   left: 0;
   width: auto;
 }
@@ -330,8 +331,8 @@ h1{
 
 .img-dp{
   display: flex;
-  height: 12vh;
-  width: 5vw;
+  height: 7vh;
+  width: 14vw;
 
 }
 .img-dp:hover{
@@ -339,14 +340,15 @@ h1{
 }
 .img-gvt{
   display: flex;
-  height: 8vh;
-  width: 5vw;
+  height: 12vh;
+  width: 10vw;
 
 }
 .img-procon{
   display: flex;
-  height: 12vh;
+  height: 7vh;
   width: 5vw;
+  margin-left: 15px;
 }
 .img-procon:hover{
   cursor: pointer;
@@ -362,8 +364,10 @@ h1{
 }
 .img-conde{
   display: flex;
-  height: 11vh;
-  width: 5vw;
+  height: 7vh;
+  width: 7vw;
+  margin-left: 10px;
+
 }
 .img-conde:hover{
   cursor: pointer;
@@ -378,20 +382,56 @@ h1{
 }
 .img-TRE{
   display: flex;
-  height: 12vh;
-  width: 6vw;
+  height: 7vh;
+  width: 8vw;
 }
 .img-TRE:hover{
   cursor: pointer;
 }
+
 .img-atendimento-right{
   display: flex;
   margin: 0;
-  height: 15vh;
+  height: 20vh;
   right: 0; 
 }
 
 /* PARA MOBILE */
+.column{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.l1{
+  display: flex;
+}
+.l2{
+  display: flex;
+}
+.container-atendimentos{
+  display: none;
+  background-color: #041545;
+  width: 100%;
+  height: 60vh;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.title-atendimentos{
+  padding-top: 120px;
+  display: none;
+  font-size: 28pt;
+  color: white;
+  font-weight: bold;
+}
+.logo-rix-atendimentos{
+  display: none;
+  height: 30vh;
+  justify-content: center;
+  align-items: center;
+}
+
 .h2-servico-under{
   display: none;
   color: white;
@@ -440,21 +480,36 @@ h1{
     width: 95%;
   } 
   
-   .container-rodape, .h2-servico-border, .espaço, .li_links-border, .li_texts-border, .internet_icon_border, 
-   .wifi_lateral_icon_border, .descricao{
+   .h2-servico-border, .espaço, .li_links-border, .li_texts-border, .internet_icon_border, 
+   .wifi_lateral_icon_border, .descricao, .img-atendimento-right, .img-atendimento-left{
     display: none;
+   }
+   .h2-servico-under, .internet_icon_under, .wifi_lateral_icon_under, .li_links_under, .li_texts_under, 
+   .container-atendimentos,.logo-rix-atendimentos, .li_texts_under:hover, .alinhador{
+     display: flex;
+   }
+   .container-rodape{
+    display: flex;
+    justify-content: center;
+   }
+   .column{
+    justify-content: center;
+   }
+   .title-atendimentos{
+    display: flex;
+   }
+   .l1, .l2{
+    display: block;
+   }
+   .img-dp, .img-procon, .img-oi, .img-conde, .img-SES, .img-TRE, .img-gvt {
+    width: 90%;
+    height: 15vh;
    }
    .h2-servico{
     color: white;
     font-weight: bolder;
     font-size: 12pt;
   }
-
-  .h2-servico-under, .internet_icon_under, .wifi_lateral_icon_under, .li_links_under, .li_texts_under, 
-  .li_texts_under:hover, .alinhador{
-    display: flex;
-  }
-
   .margem-branca{
     height: 0vh;
   }

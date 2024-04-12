@@ -122,38 +122,52 @@
         <!-- PARA FIM MOBILE -->
     </div>
 <!-- Atendimentos -->
-    <!-- <div class="container-rodape">
+    <div class="container-rodape">
          <div class="divisor">
             <img class="img-atendimento-left" src="../img/atendimento-left.png">  
             <div class="clientes">
-                <a target='_blank' href="https://www.defensoria.pb.def.br/">
-                    <img class="img-dp" src="../img/DP.png"> 
-                </a>
-                <a>
-                    <img class="img-gvt" src="../img/logo-GVT.png"> 
-                </a>
-                <a>
-                    <img class="img-gvt" src="../img/rio-tinto.png"> 
-                </a>
-                <a target='_blank' href="https://paraiba.pb.gov.br/diretas/saude/projeto-amar">
-                    <img class="img-SES" src="../img/SES.png">
-                </a>
-                <a target='_blank' href="https://www.oi.com.br/">
-                    <img class="img-oi" src="../img/oi.png">
-                </a>
-                <a target='_blank' href="https://www.conde.pb.gov.br/">
-                    <img class="img-conde" src="../img/conde.png">
-                </a>
-                <a target='_blank' href="https://procon.pb.gov.br/">
-                    <img class="img-procon" src="../img/procon.png">
-                </a>
-                <a target='_blank' href="https://www.tre-pb.jus.br/">
-                    <img class="img-TRE" src="../img/TRE.png">
-                </a>
+                <div class="column">
+                    <div class="container-atendimentos">
+                        <div class="title-atendimentos">
+                            ATENDIMENTOS
+                        </div>
+                        <img class="logo-rix-atendimentos" src="../img/logo-rix.png" alt="etiqueta" >
+                    </div>
+                    <div class="l1">
+                        <a>
+                            <img class="img-gvt" src="../img/camara.svg"> 
+                        </a>
+                        <a>
+                            <img class="img-gvt" src="../img/rio-tinto.png"> 
+                        </a>
+                        <a target='_blank' href="https://paraiba.pb.gov.br/diretas/saude/projeto-amar">
+                            <img class="img-SES" src="../img/governo.svg">
+                        </a>
+                        <a target='_blank' href="https://www.oi.com.br/">
+                            <img class="img-oi" src="../img/oi.svg">
+                        </a>
+
+                        
+                    </div>
+                    <div class="l2">
+                        <a target='_blank' href="https://www.conde.pb.gov.br/">
+                            <img class="img-conde" src="../img/conde.png">
+                        </a>
+                        <a target='_blank' href="https://procon.pb.gov.br/">
+                            <img class="img-procon" src="../img/procon.png">
+                        </a>
+                        <a target='_blank' href="https://www.tre-pb.jus.br/">
+                            <img class="img-TRE" src="../img/TRE.png">
+                        </a>
+                        <a target='_blank' href="https://www.defensoria.pb.def.br/">
+                            <img class="img-dp" src="../img/DP.png"> 
+                        </a>
+                    </div>
+                </div> 
             </div>
             <img class="img-atendimento-right" src="../img/atendimento-right.png"> 
         </div>
-    </div> -->
+    </div>
 <!-- Botão do WhatsApp -->
     <?php include '../html/buttonzap.html';?>
 <!-- Rodapé -->

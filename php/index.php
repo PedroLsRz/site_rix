@@ -15,9 +15,9 @@
     <section class="container">
         <div class="slider-wrapper" id="slider-focus">
             <div class="slider">
-                <img id="slide-1" src="../img/acessibilidade.jpg" onclick="window.location.href='./acessibilidade.php'" alt="3D rendering of an imaginary orange planet in space" />
-                <img id="slide-2" src="../img/foto-emails.jpeg" onclick="window.location.href='./emails.php'" />
-                <img id="slide-3" src="../img/business.png" onclick="window.location.href='./rix-telecom.php'"/>
+                <img id="slide-1" src="../img/foto-emails.jpeg" onclick="window.location.href='./emails.php'" alt="3D rendering of an imaginary orange planet in space" />
+                <img id="slide-2" src="../img/ti.png" onclick="window.location.href='./trabalhe-conosco.php'" />
+                <img id="slide-3" src="../img/business-targed.png" onclick="window.location.href='./rix-telecom.php'"/>
             </div>
             <div class="slider-nav">
                 <a href="#slide-1"></a>

@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     }
 
-    setInterval(nextSlide, 3000); // Altere o valor para ajustar o tempo de transição (em milissegundos)
+    setInterval(nextSlide, 6000); // Altere o valor para ajustar o tempo de transição (em milissegundos)
   });
 
   const $html = document.querySelector('html')

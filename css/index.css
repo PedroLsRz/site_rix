@@ -487,6 +487,7 @@ h1{
    .title-atendimentos, .container-atendimentos,.logo-rix-atendimentos, .li_texts_under:hover, .alinhador{
      display: flex;
    }
+
    .container-rodape{
     display: flex;
     justify-content: center;

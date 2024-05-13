@@ -56,8 +56,8 @@
 
                         <!-- PARA MOBILE (SOMENTE O DIVISOR E LOGO)-->
 <div class="divisor_mobile">
-    <a class="logo_mobile" href="index.php"><img src="/img/rix-logo-2.png" alt="logo"></a>
-    <img class="menu-painel" src="/img/menu-nav.png" alt="logo" id="menu-ativador"> 
+    <a class="logo_mobile" href="index.php"><img src="img/rix-logo-2.png" alt="logo"></a>
+    <img class="menu-painel" src="img/menu-nav.png" alt="logo" id="menu-ativador"> 
 </div>       
                         <!-- FIM PARA MOBILE -->                   
     <nav class ="nav-menu" id="nav-bottom" >

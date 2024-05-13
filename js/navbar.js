@@ -4,13 +4,13 @@ var headerItem = document.getElementById("cabecalho")
 var ativadorItem = document.getElementById("menu-ativador")
 var principalItem = document.getElementById("item_principal")
 var navBottom = document.getElementById("nav-bottom")
-//var headerMobile = document.getElementById("nav_titles")
 var servicosItem = document.getElementById("item_servicos")
 var contatosItem = document.getElementById("item_contatos")
 var sobreItem = document.getElementById("item_sobre")
 var faqItem = document.getElementById("item_faq")
-// var numberItem = document.getElementById("0800")
-// var iconItem = document.getElementById("icon-number")
+// DELIMITA O TAMANHO DA LARGURA DA TELA
+const mediaQueryList = window.matchMedia('(max-width: 1140px)');
+
 
 //        FAUNÇÃO QUE ABRE A NAVBAR 
 
@@ -37,33 +37,34 @@ var ativadorServico = document.getElementById("item_servicos")
 
 //    FUNÇÃO DE ABERTURA DO PAINEL SERVIÇO
 
+if (mediaQueryList.matches) {
 ativadorServico.addEventListener("click", function() {
   
-  if(painel.style.display === "flex") {
-    painel.style.display = "none";
-    contatosItem.style.display = "flex";
-    sobreItem.style.display = "flex"; 
-    faqItem.style.display = "flex";
+    if(painel.style.display === "flex") {
+      painel.style.display = "none";
+      contatosItem.style.display = "flex";
+      sobreItem.style.display = "flex"; 
+      faqItem.style.display = "flex";
 
-  }else{
-    painelShort.style.display = "none";
-    painelShortSobre.style.display = "none";
-    painel.style.display = "flex"; 
-    ativadorServico.style.height = "220px";
-    contatosItem.style.display = "none";
-    sobreItem.style.display = "none"; 
-    faqItem.style.display = "none"; 
-  }
+    }else{
+      painelShort.style.display = "none";
+      painelShortSobre.style.display = "none";
+      painel.style.display = "flex"; 
+      ativadorServico.style.height = "220px";
+      contatosItem.style.display = "none";
+      sobreItem.style.display = "none"; 
+      faqItem.style.display = "none"; 
+    }
 
-});
-
+  });
+}
 //    VARIÁVEL DE ABERTURA DO PAINEL DE CONTATOS
 
 var painelShort = document.getElementById("painel-short")
 var ativadorContato = document.getElementById("item_contatos")
 
 //    FUNÇÃO DE ABERTURA DO PAINEL DE CONTATOS
-
+if (mediaQueryList.matches) {
 ativadorContato.addEventListener("click", function() {
   
   if(painelShort.style.display === "flex") {
@@ -80,14 +81,15 @@ ativadorContato.addEventListener("click", function() {
   }
 
 });
-
+}
 //    VARIÁVEL DE ABERTURA DO PAINEL DE SOBRE
 
 var painelShortSobre = document.getElementById("painel-short-sobre")
 var ativadorSobre = document.getElementById("item_sobre")
 
-//    FUNÇÃO DE ABERTURA DO PAINEL DE SBORE
+//    FUNÇÃO DE ABERTURA DO PAINEL DE SOBRE
 
+if (mediaQueryList.matches) {
 ativadorSobre.addEventListener("click", function() {
   
   if(painelShortSobre.style.display === "flex") {
@@ -101,3 +103,4 @@ ativadorSobre.addEventListener("click", function() {
   }
 
 });
+}

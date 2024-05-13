@@ -150,6 +150,7 @@
   .text{
     display: flex;
     font-size: 14pt;
+    width: 90%;
   }
   .container-mid-text{
     align-items:end;

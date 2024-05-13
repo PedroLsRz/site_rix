@@ -15,19 +15,7 @@
 <body>
   <!-- NavBar -->
   <div class="container-navs">
-    <nav class="nav-left">
-        
-            <a href="#nav-bottom" class="link" tabindex="1">MENU
-                <span class="item-number">1</span>
-            </a>
-            <a href="#services-focus" class="link" tabindex="2">SERVIÇOS
-                <span class="item-number">2</span>
-            </a>
-            <a href="#rodape-focus" class="link" tabindex="3">RODAPÉ
-                <span class="item-number">3</span>
-            </a>
-            
-    </nav>
+    <div class="space"></div>
     <div class="itens-mid">
         <li class="font-size-control" >
             <a class="link-size-short" id='decrease'>A-</a>
@@ -55,8 +43,8 @@
 
                         <!-- PARA MOBILE (SOMENTE O DIVISOR E LOGO)-->
 <div class="divisor_mobile">
-    <a class="logo_mobile" href="index.php"><img src="/img/rix-logo-2.png" alt="logo"></a>
-    <img class="menu-painel" src="/img/menu-nav.png" alt="logo" id="menu-ativador"> 
+    <a class="logo_mobile" href="index.php"><img src="img/rix-logo-2.png" alt="logo"></a>
+    <img class="menu-painel" src="img/menu-nav.png" alt="logo" id="menu-ativador"> 
 </div>       
                         <!-- FIM PARA MOBILE -->                   
     <nav class ="nav-menu" id="nav-bottom" >
@@ -124,42 +112,18 @@
         <div class="container-title">
         <a class="title" id="central">Onde fica a Central da Rix Internet?</a>
            <div class="container-text" id="r-central" style="display: none;">
-                <div class="text">A Central da Rix Internet fica em João Pessoa.
+                <div class="text">A Central da Rix Internet fica em João Pessoa. <br>
                     Localizada na Av. Francisco Lustosa Cabral, 481, Cristo, João Pessoa.
                 </div>
             </div>
         </div>
         <div class="container-title">
-        <a class="title" id="proposta">Como faço para enviar uma proposta para a Rix??</a>
+        <a class="title" id="proposta">Como faço para enviar uma proposta para a Rix?</a>
         <div class="container-text" id="r-proposta" style="display: none;">
                 <div class="text">Você pode entrar em contato conosco através de nossos consultores nos nossos serviços de contato.    
                 </div>
             </div>
         </div>
-        <!-- <div class="container-title">
-        <a class="title">A Rix atende CPF?</a>
-        <div class="container-text">
-                <div class="text">Não! A Rix não atende clientes CPF.</div>
-            </div>
-        </div>
-        <div class="container-title">
-        <a class="title">A Rix atende CPF?</a>
-        <div class="container-text">
-                <div class="text">Não! A Rix não atende clientes CPF.</div>
-            </div>
-        </div>
-        <div class="container-title">
-        <a class="title">A Rix atende CPF?</a>
-        <div class="container-text">
-                <div class="text">Não! A Rix não atende clientes CPF.</div>
-            </div>
-        </div>
-        <div class="container-title">
-        <a class="title">A Rix atende CPF?</a>
-        <div class="container-text">
-                <div class="text">Não! A Rix não atende clientes CPF.</div>
-            </div>
-        </div> -->
      <!-- button zap -->
      <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -208,9 +172,9 @@
             </nav>
 <!-- Rodapé -->
 
-
-<script src="../js/faq.js"></script>
-<script src="../js/fontsize.js"></script>
-<script src="../js/index.js"></script>
+<script src="js/navbar.js" defer></script>
+<script src="js/faq.js"></script>
+<script src="js/fontsize.js"></script>
+<script src="js/index.js"></script>
 </body>
 </html>

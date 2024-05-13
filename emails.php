@@ -17,19 +17,7 @@
 
    <!-- NavBar -->
    <div class="container-navs">
-    <nav class="nav-left">
-        
-            <a href="#nav-bottom" class="link" tabindex="1">MENU
-                <span class="item-number">1</span>
-            </a>
-            <a href="#services-focus" class="link" tabindex="2">SERVIÇOS
-                <span class="item-number">2</span>
-            </a>
-            <a href="#rodape-focus" class="link" tabindex="3">RODAPÉ
-                <span class="item-number">3</span>
-            </a>
-            
-    </nav>
+   <div class="space"></div>
     <div class="itens-mid">
         <li class="font-size-control" >
             <a class="link-size-short" id='decrease'>A-</a>
@@ -57,8 +45,8 @@
 
                         <!-- PARA MOBILE (SOMENTE O DIVISOR E LOGO)-->
 <div class="divisor_mobile">
-    <a class="logo_mobile" href="index.php"><img src="/img/rix-logo-2.png" alt="logo"></a>
-    <img class="menu-painel" src="/img/menu-nav.png" alt="logo" id="menu-ativador"> 
+    <a class="logo_mobile" href="index.php"><img src="img/rix-logo-2.png" alt="logo"></a>
+    <img class="menu-painel" src="img/menu-nav.png" alt="logo" id="menu-ativador"> 
 </div>       
                         <!-- FIM PARA MOBILE -->                   
     <nav class ="nav-menu" id="nav-bottom" >
@@ -224,8 +212,9 @@
             </nav>
 <!-- Rodapé -->
 
-<script src="../js/index.js"></script>
-<script src="../js/emails.js" defer></script>
-<script src="../js/fontsize.js"></script>
+<script src="js/navbar.js" defer></script>
+<script src="js/index.js"></script>
+<script src="js/emails.js" defer></script>
+<script src="js/fontsize.js"></script>
 </body>
 </html>

@@ -55,8 +55,8 @@
 
                         <!-- PARA MOBILE (SOMENTE O DIVISOR E LOGO)-->
 <div class="divisor_mobile">
-    <a class="logo_mobile" href="index.php"><img src="/img/rix-logo-2.png" alt="logo"></a>
-    <img class="menu-painel" src="/img/menu-nav.png" alt="logo" id="menu-ativador"> 
+    <a class="logo_mobile" href="index.php"><img src="img/rix-logo-2.png" alt="logo"></a>
+    <img class="menu-painel" src="img/menu-nav.png" alt="logo" id="menu-ativador"> 
 </div>       
                         <!-- FIM PARA MOBILE -->                   
     <nav class ="nav-menu" id="nav-bottom" >
@@ -120,7 +120,7 @@
         Envie seus dados pelo formulário, aguardamos sua mensagem! 
     </div>
     <div class="container-trabalho-bottom">  
-        <form action="../functions/download.php" method="POST" enctype="multipart/form-data"> <!-- ENVIA OS DADOS DO FORMS PARA O STORAGE -->
+        <form action="functions/download.php" method="POST" enctype="multipart/form-data"> <!-- ENVIA OS DADOS DO FORMS PARA O STORAGE -->
             <div class="ul-form">
                 <li class="li-form">
                     <label for="name">NOME COMPLETO</label>
@@ -192,8 +192,8 @@
                 </div>
             </nav>
 <!-- Rodapé -->
-
-    <script src="../js/fontsize-nav.js"></script>
-    <script src="../js/index.js"></script>
+    <script src="js/navbar.js" defer></script>
+    <script src="js/fontsize-nav.js"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>

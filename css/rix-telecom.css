@@ -92,9 +92,9 @@ body {
   display: flex;
   align-items: center;
   background-size: cover;
-  height: 1050px;
+  height: 1150px;
   flex-direction: column;
-  background-image: url(../img/business.jpeg);
+  background-image: url(../img/rix-work.jpeg);
   background-repeat: no-repeat;
 }
 .titulo{
@@ -121,6 +121,20 @@ h1{
   color: #dbdbdb;
   text-align: start;
   
+}
+.quem-somos{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgb(175, 175, 175);
+  padding-top: 40px;
+}
+.link-quem-somos{
+  text-decoration: none;
+  color: red;
+  font-weight: bolder;
 }
 /* SE A TELA TIVER ATÉ 1140PX DE LARGURA, A FUNÇÃO É ATIVADA */
 /* PARA MOBILE */

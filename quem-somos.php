@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A Rix</title>
-    <link href="css/rix-telecom.css" rel="stylesheet">
+    <link href="css/quem-somos.css" rel="stylesheet">
     <link href="css/navbar.css" rel="stylesheet">
     <link href="css/buttonzap.css" rel="stylesheet">
     <link href="css/rodape.css" rel="stylesheet">
@@ -47,7 +47,8 @@
     <a class="logo_mobile" href="index.php"><img src="img/rix-logo-2.png" alt="logo"></a>
     <img class="menu-painel" src="img/menu-nav.png" alt="logo" id="menu-ativador"> 
 </div>       
-                        <!-- FIM PARA MOBILE -->                   
+                        <!-- FIM PARA MOBILE -->      
+                        <!-- NAVBAR -->           
     <nav class ="nav-menu" id="nav-bottom" >
         <ul class="nav__links">
             <li>
@@ -88,68 +89,169 @@
             </li> 
         </ul>  
         
-    </nav> 
+    </nav>  
     <div class="container-cta" id="icon-number">
         <i class="material-symbols-outlined phone-0800" >
             call 
         </i> 
         <h3 class="fone-0800" id="0800">0800 732 0749</h3>
     </div>
-    </header>
- <!-- NavBar -->
+</header>
+ <!-- FIM NAVBAR --> 
 
 
 <div class="container">
-    <div class="titulo"><h1>SOBRE A EMPRESA</h1></div>
-        <div class="container-mid" id="mid-text">
-        <p>A <strong>Rix</strong> ( RIX TELECOM LTDA ) CNPJ: 04.352.312/0001-15,
-        é uma empresa do ramo de Telecomunicações, especialista em conectividade. 
-        Fundada por Valdemir Cesar da Silva, cientista da computação e especialista em redes de 
-        computadores, em março de 2001, na cidade de Campina Grande, tem sua origem em outra empresa 
-        fundada por ele em setembro de 1995. A Openline foi o primeiro provedor de Internet no Norte e 
-        Nordeste do Brasil, trazendo inovação e pioneirismo em vários ramos como com o primeiro jornal do 
-        N/NE com edições diárias na Internet (Jornal O Norte), primeira empresa de publicidade a ter site 
-        na Internet no N/Ne (Antares Publicidade), etc. Com a cisão da Openline em 2001, surgiu a RIX Internet 
-        na Cidade de Campina Grande e que hoje atende clientes em todo o Nordeste.</p>
-        
-        Focada em atender clientes governamentais e grandes empresas de telecomunicações, 
-        atua fortemente no Estado da Paraíba, onde teve sua origem, porém possui clientes 
-        em Pernambuco, Rio Grande do Norte e Ceará, com capacidade de atender em praticamente 
-        qualquer local do país.
+    <div class="titulo"><h1>QUEM SOMOS</h1></div>
+    <div class="container-mid" id="mid-text">   
+        <i><strong>Subtítulo</strong></i>
+        <p></p>
+        Descrição
         <p>&nbsp;</p>
-        <i><strong>VISÃO</strong></i>
-        <p></p>
-        Ser um provedor que atua buscando a satisfação do cliente.
-        <p></p>
-        <i><strong>MISSÃO</strong></i>
-        <p></p>
-        Proporcionar um atendimento de conectividade estável, confiável e seguro.
-        <p>&nbsp;</p>
-        <i><strong>NEGÓCIO</strong></i>
-        <p></p>
-        Tecnologia da Informação e Comunicações.
-        <p></p>
-        <i><strong>PRODUTOS E SERVIÇOS</strong></i>
-        <p></p>
-        Serviços de Tecnologia da Informação e Comunicações, Serviços de Informática.
-        <p>&nbsp;</p>
-        <i><strong>ATUAÇÃO</strong></i>
-        <p></p>
-        Atuamos em todo o Nordeste, tendo presença acentuada no Estado da Paraíba
-        <p>&nbsp;</p>
-        
     </div>
-    
+    <!-- VALDEMIR --> 
+    <div class="cargo">Diretoria</div>
+    <div class="display-valdemir">
+        <div class="nothing">&nbsp;</div>
+        <div class="text">Valdemir Cesar da Silva</div>
+        <div class="nothing">&nbsp;</div>
+        <img class="valdemir_icon" src="img/funcionario/Valdemir-frente.JPG"/>   
+        <div class="nothing">&nbsp;</div> 
+        <div class="text">Fundador e diretor.</div>
+    </div>
+    <!-- LUCIANE E SILMAR EM GRID--> 
+    <div class="cargo">Gerência Administrativa</div>
+    <div class="descricao">&nbsp;</div>  
+    <div class="display-administrativo">
+        <!-- 1ª LINHA, NOMES --> 
+        <div class="nothing">&nbsp;</div>
+        <div class="text">Luciane</div>
+        <div class="nothing">&nbsp;</div>
+        <div class="text">Silmar Guerra da Silva</div>
+        <div class="nothing">&nbsp;</div>
+        <!-- 2ª LINHA, FOTOS --> 
+        <div class="nothing">&nbsp;</div>
+        <img class="func_icon" src="img/funcionario/Luciane.JPG"/>
+        <div class="nothing">&nbsp;</div>
+        <img class="func_icon" src="img/funcionario/Silmar.JPG"/>
+        <div class="nothing">&nbsp;</div>
+        <!-- 3ª LINHA, CARGOS --> 
+        <div class="nothing">&nbsp;</div>
+        <div class="text">Cargo do respectivo <br> funcionario</div>
+        <div class="nothing">&nbsp;</div>
+        <div class="text">Cargo do respectivo <br> funcionario</div>
+        <div class="nothing">&nbsp;</div>
+    </div>
+        <!-- HENRIQUE -->
+    <div class="cargo">Gerente de Suporte</div>
+    <div class="display-solo">
+        <div class="nothing">&nbsp;</div>
+        <!-- NOME --> 
+        <div class="text">Henrique da Silva Viana</div>
+        <div class="nothing">&nbsp;</div>
+        <!-- FOTO --> 
+        <img class="func_icon" src="img/funcionario/Henrique.JPG"/>   
+        <div class="nothing">&nbsp;</div> 
+        <!-- CARGO --> 
+        <div class="text">Cargo do respectivo funcionario</div>
+    </div>
+    <!-- ADINAEL E WAGNER EM GRID--> 
+    <div class="cargo">Especialistas em serviços externos</div>
+    <div class="descricao">&nbsp;</div>  
+    <div class="display-administrativo">
+        <!-- 1ª LINHA, NOMES --> 
+        <div class="nothing">&nbsp;</div>
+        <div class="text">Adinael Pereira de Lima</div>
+        <div class="nothing">&nbsp;</div>
+        <div class="text">Wagner Bruno Pereira de Brito</div>
+        <div class="nothing">&nbsp;</div>
+        <!-- 2ª LINHA, FOTOS --> 
+        <div class="nothing">&nbsp;</div>
+        <img class="func_icon" src="img/funcionario/adinael.JPG"/>
+        <div class="nothing">&nbsp;</div>
+        <img class="func_icon" src="img/funcionario/wagner.JPG"/>
+        <div class="nothing">&nbsp;</div>
+        <!-- 3ª LINHA, CARGOS --> 
+        <div class="nothing">&nbsp;</div>
+        <div class="text">Cargo do respectivo <br> funcionario</div>
+        <div class="nothing">&nbsp;</div>
+        <div class="text">Cargo do respectivo <br> funcionario</div>
+        <div class="nothing">&nbsp;</div>
+    </div>
+    <!-- PEDRO SOARES --> 
+    <div class="cargo">Gerente de Suporte 24 horas</div>
+    <div class="display-solo">
+        <div class="nothing">&nbsp;</div>
+        <!-- NOME --> 
+        <div class="text">Pedro Lucas Soares da Silva</div>
+        <div class="nothing">&nbsp;</div>
+        <!-- FOTO --> 
+        <img class="func_icon" src="img/funcionario/pedro-soares.JPG"/>   
+        <div class="nothing">&nbsp;</div> 
+        <!-- CARGO --> 
+        <div class="text">Gerente de Suporte 24h</div>
+    </div>
+    <!-- SUPORTES 24H DIURNOS EM GRID -->
+    <div class="cargo">Suportes 24 horas diúrnos</div>
+    <div class="descricao">&nbsp;</div>  
+    <div class="display-24h">
+        <!-- 1ª LINHA, NOMES --> 
+        <div class="nothing">&nbsp;</div>
+        <div class="text">Pedro Lima</div>
+        <div class="nothing">&nbsp;</div>
+        <div class="text">Hugo Lima</div>
+        <div class="nothing">&nbsp;</div>
+        <!-- 2ª LINHA, FOTOS --> 
+        <div class="nothing">&nbsp;</div>
+        <img class="func_icon" src="img/funcionario/pedro-lima.JPG"/>
+        <div class="nothing">&nbsp;</div>
+        <img class="func_icon" src="img/funcionario/hugo.JPG"/>
+        <div class="nothing">&nbsp;</div>
+        <!-- 3ª LINHA, CARGOS --> 
+        <div class="nothing">&nbsp;</div>
+        <div class="text">Cargo do respectivo <br> funcionario</div>
+        <div class="nothing">&nbsp;</div>
+        <div class="text">Cargo do respectivo <br> funcionario</div>
+        <div class="nothing">&nbsp;</div>
+    </div>
+    <!-- SUPORTES 24H NOTURNOS EM GRID -->
+    <div class="cargo">Suportes 24 horas noturnos</div>
+    <div class="descricao">&nbsp;</div>  
+    <div class="display-24h">
+        <!-- 1ª LINHA, NOMES --> 
+        <div class="nothing">&nbsp;</div>
+        <div class="text">Mariana</div>
+        <div class="nothing">&nbsp;</div>
+        <div class="text">Carlos Silvio</div>
+        <div class="nothing">&nbsp;</div>
+        <!-- 2ª LINHA, FOTOS --> 
+        <div class="nothing">&nbsp;</div>
+        <img class="func_icon" src="img/funcionario/mariana.JPG"/>
+        <div class="nothing">&nbsp;</div>
+        <img class="func_icon" src="img/funcionario/carlinhos.JPG"/>
+        <div class="nothing">&nbsp;</div>
+        <!-- 3ª LINHA, CARGOS --> 
+        <div class="nothing">&nbsp;</div>
+        <div class="text">Cargo do respectivo <br> funcionario</div>
+        <div class="nothing">&nbsp;</div>
+        <div class="text">Cargo do respectivo <br> funcionario</div>
+        <div class="nothing">&nbsp;</div>
+    </div>
+    <!-- MARIA CLARA  -->
+    <div class="cargo">Jovem aprendiz</div>
+    <div class="display-solo">
+        <div class="nothing">&nbsp;</div>
+        <!-- NOME -->
+        <div class="text">Maria Clara Romano</div>
+        <div class="nothing">&nbsp;</div>
+        <!-- FOTO -->
+        <img class="func_icon" src="img/funcionario/maria-clara.JPG"/>   
+        <div class="nothing">&nbsp;</div> 
+        <!-- CARGO -->
+        <div class="text">Jovem aprendiz.</div>
+    </div>
 </div>
-<p>&nbsp;</p>
-<div class="quem-somos">
-    <i><strong>QUEM SOMOS?</strong></i>
-    <p></p>
-    <div>Clicando <a class="link-quem-somos" href="quem-somos.php" id="#">aqui</a> você conhecerá um pouco a
-    respeito de nossos colaboradores.</div>
-    <p>&nbsp;</p>
     
-</div>
+    
     <!-- button zap -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
